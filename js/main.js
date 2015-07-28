@@ -26,16 +26,20 @@ $( "#logo-container" ).click(function() {
 	}
 	var newColor = bgColors[Math.floor(Math.random() * (bgColors.length))];
 	$( "body, .side-nav" ).animate({
-	          backgroundColor: newColor,
-	          color: "#fff"
-	        }, 200 );
+          backgroundColor: newColor,
+          color: "#fff"
+        }, 200 );
 	$( "nav .brand-logo, nav ul a, nav i, a" ).animate({
-	          color: "#fff"
-	        }, 200 );
+          color: "#fff"
+        }, 200 );
 	$( ".card-panel img" ).animate({
-	          borderColor: "5px solid #ffffff"
-	        }, 200 );
+          borderColor: "5px solid #ffffff"
+        }, 200 );
 	counter = counter + 1;
 	$("#logo-container :last-child").text(" " + counter);	
 });
+
+// hidden gem
+var n = 0
+
 
