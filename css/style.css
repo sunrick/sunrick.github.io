@@ -1,0 +1,118 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+	color: #000;
+}
+
+
+/* Heading styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:500;
+}
+
+.text-header {
+  	margin-top:40px;
+  }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.00rem;
+    line-height: 110%;
+    margin: 1.14rem 0 0.912rem 0;
+  }
+  .text-header {
+  	margin-top:20px;
+  }
+ }
+
+ @media (max-width: 992px) and (min-width: 600px) {
+  h1 {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+  }
+ }
+
+/* Ticker styling */
+
+.inline {
+	display: inline;
+}
+
+/* NAV STYLING */
+nav {
+	box-shadow: none;
+}
+
+nav .brand-logo, nav ul a, nav i {
+	color: #000;
+}
+
+.side-nav li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*nav ul li:hover, nav ul li.active {
+	background-color: transparent;
+}*/
+
+/*CARD STYLING*/
+
+.card {
+	box-shadow: none;
+}
+
+.card-panel {
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.card-panel img {
+	border: 5px solid #000000;
+}
+
+/* Accordion Styling */
+
+.collapsible {
+	border: none;
+	box-shadow: none;
+}
+.collapsible-header {
+	background-color: transparent;
+	border: none;
+	padding-left: 0;
+}
+
+.collapsible-body {
+	border: none;
+}
+
+/*Footer styling*/
+
+footer.page-footer {
+	padding:0;
+	background-color: transparent;
+}
+
+footer.page-footer .footer-copyright {
+	background-color: transparent;
+	color: #000000;
+}
