@@ -21,6 +21,11 @@ a {
 	color: #000;
 }
 
+/* row */
+
+.row {
+	margin-bottom: 0;
+}
 
 /* Heading styles */
 
@@ -40,6 +45,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .text-header {
   	margin-top:20px;
+  }
+  h5 {
+  	font-size: 1.25em;
   }
  }
 
@@ -115,4 +123,46 @@ footer.page-footer {
 footer.page-footer .footer-copyright {
 	background-color: transparent;
 	color: #000000;
+}
+
+/* Fun spinning thing */
+
+.spin {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }

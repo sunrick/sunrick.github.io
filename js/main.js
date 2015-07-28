@@ -1,6 +1,20 @@
+// ticker
+
 $( document ).ready(function() {
   $('.ticker').typer(['full-stack', 'back-end', 'rails']);
 });
+
+// #spinning
+
+$( "#logo-container" )
+  .mouseenter(function() {
+    $( this ).find( ":first-child" ).addClass('spin');
+  })
+  .mouseleave(function() {
+    $( this ).find( ":first-child" ).removeClass( "spin" );
+  });
+
+// #change color of website
 
 var counter = 0;
 $( "#logo-container" ).click(function() {
@@ -22,6 +36,6 @@ $( "#logo-container" ).click(function() {
 	          borderColor: "5px solid #ffffff"
 	        }, 200 );
 	counter = counter + 1;
-	$("#logo-container > span").text(" " + counter);	
+	$("#logo-container :last-child").text(" " + counter);	
 });
 
