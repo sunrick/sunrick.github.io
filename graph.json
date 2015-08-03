@@ -11,13 +11,13 @@
    ],
    "links":[  
       {  
-         "source":1,
-         "target":2,
+         "source":0,
+         "target":1,
          "value":1
       },
       {  
-         "source":2,
-         "target":1,
+         "source":1,
+         "target":0,
          "value":8
       }
    ]
