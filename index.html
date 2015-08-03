@@ -19,6 +19,7 @@
         <li><a href="#">contact</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">home</a></li>
         <li><a href="#">portfolio</a></li>
         <li><a href="#">about</a></li>
         <li><a href="#">résumé</a></li>
@@ -27,7 +28,7 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse left"><i class="material-icons" style="margin-left: -4px;">menu</i></a>
     </div>
   </nav>
-  <div class="container">
+  <div id="home" class="container current">
     <div class="row" style="margin-bottom: 0">
       <div class="col s12">
         <div class="text-header">
@@ -39,10 +40,12 @@
     <div class="row">
       <div class="col s12">
         <h5> about </h5>
-        <p>hello. </p> 
-        <p>i'm a software developer based out of atlanta, ga, usa. </p>
-        <p>i develop ruby on rails web applications. </p>
-        <p>read more about me: <a href="#" style="font-weight:400;">here.</a></p>
+        <ul>
+          <li>hello.</li>
+          <li>i'm a software developer based ot of atlanta, ga, usa.</li>
+          <li>i develop ruby on rails web applications.</li>
+          <li>read more about me: <a href="#" style="font-weight:400;">here.</a></li>
+        </ul>
       </div>
     </div>
     <div class="row">
@@ -56,12 +59,248 @@
       </div>
     </div>
   </div>
-  <a id="hidden" href="https://www.linkedin.com/in/rsunden">but seriously pls hire me?</a>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/jquery.typer.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/main.js"></script>
-  </body>
+  <div id="portfolio" class="container" style="display:none;">
+    <div class="row" style="margin-bottom: 0">
+      <div class="col s12">
+        <div class="text-header">
+          <h1>portfolio </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel" style="padding:0px;">
+          <div class="row">
+            <div class="col s4">
+              <img src="http://blogs-images.forbes.com/hannahelliott/files/2012/03/0320_motorcycle-richard-bailey_400x400.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="col s8" style="height:100%;">
+              <h5 style="margin-top:0;"> unoverb </h5>
+              <div class="divider"></div>
+              <p>
+                this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+              </p>
+              <p>role: <a href="http://dilbert.com/strip/1998-03-23">back-end developer</a></p>
+              <p>
+                tech used: <a href="#">ruby on rails</a>, <a href="#">heroku</a>, <a href="#">paperclip</a>, <a href="#">aws3-sdk</a>
+              </p>
+              <span> links: </span>
+              <a href="#">demo</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel" style="padding:0px;">
+          <div class="row">
+            <div class="col s4">
+              <img src="http://blogs-images.forbes.com/hannahelliott/files/2012/03/0320_motorcycle-richard-bailey_400x400.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="col s8" style="height:100%;">
+              <h5 style="margin-top:0;"> unoverb </h5>
+              <div class="divider"></div>
+              <p>
+                this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+              </p>
+              <p>role: <a href="http://dilbert.com/strip/1998-03-23">back-end developer</a></p>
+              <p>
+                tech used: <a href="#">ruby on rails</a>, <a href="#">heroku</a>, <a href="#">paperclip</a>, <a href="#">aws3-sdk</a>
+              </p>
+              <span> links: </span>
+              <a href="#">demo</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel" style="padding:0px;">
+          <div class="row">
+            <div class="col s4">
+              <img src="http://blogs-images.forbes.com/hannahelliott/files/2012/03/0320_motorcycle-richard-bailey_400x400.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="col s8" style="height:100%;">
+              <h5 style="margin-top:0;"> unoverb </h5>
+              <div class="divider"></div>
+              <p>
+                this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+              </p>
+              <p>role: <a href="http://dilbert.com/strip/1998-03-23">back-end developer</a></p>
+              <p>
+                tech used: <a href="#">ruby on rails</a>, <a href="#">heroku</a>, <a href="#">paperclip</a>, <a href="#">aws3-sdk</a>
+              </p>
+              <span> links: </span>
+              <a href="#">demo</a>
+              <a href="#">github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="about" class="container" style="display:none;">
+  <div class="row" style="margin-bottom: 0">
+    <div class="col s12">
+      <div class="text-header">
+        <h1>about</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h5>personal</h5>
+      <div class="col s12 m4 about" style="padding-left:0;">
+        <em><p>who am i</p></em>
+        <p> i'm half swedish half american and i've been really fortunate to grow up across the world. i like to joke around, kick a soccer ball with buddies and ride motorcycles.
+        </p>
+      </div>
+      <div class="col s12 m4 about">
+        <em><p>why i get up in the morning</p></em>
+        <p> i like learning something new everyday. i love learning languages, learning about cultures, and about technology. i'm very passionate about combining technology with education. also my friends and family keep me going.
+        </p>
+      </div>
+      <div class="col s12 m4 about">
+        <em><p>fun facts</p></em>
+        <p> i was born on friday the 13th. i can make grilled cheese sandwiches. arsenal is my favorite football team. i really like teaching and coaching little kids.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h5>programming</h5>
+      <div class="col s12 m4 about" style="padding-left:0;">
+        <em><p>past</p></em>
+        <p> i started "programming" when i was 10 by building multiplayer scenario maps in age of kings, spawning units out of the ground, setting conditions for victory and other fun stuff. i also remember building websites in microsoft frontpage (lol).
+        </p>
+      </div>
+      <div class="col s12 m4 about">
+        <em><p>present</p></em>
+        <p> until recently programming as a career felt out of reach to me. i wrote python scripts for fun, and used vba for excel for work. one day i decided i had enough and i enrolled at <a href="#">the iron yard.</a> now i'm happy to say i can develop full-stack web applications with ruby on rails!
+        </p>
+      </div>
+      <div class="col s12 m4 about">
+        <em><p>future</p></em>
+        <p> i'm really excited about everything there is to learn! despite having spent most of my time working on the back-end, i have a soft spot for making websites pretty, cool and fun to use. i'm really enjoying learning about javascript, jquery, css frameworks and angular.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="résumé" class="container" style="display:none;">
+  <div class="row" style="margin-bottom: 0">
+    <div class="col s12">
+      <div class="text-header">
+        <h1>résumé</h1>
+      </div>
+    </div>
+  </div>
+  <div id="programming skills">
+    <div class="row">
+      <div class="col s12">
+        <h5>programming skills</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5 class="left">programming experience</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <div class="row">
+            <div class="col s12">
+              <h6 class="left resume-header">civic hackathon</h6>
+              <em><p class="right resume-p">jun 15</p></em>
+              <em><p class="resume-p clear">atlanta,ga,usa</p></em>
+            </div>
+          </div>
+          <p>
+            this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <div class="row">
+            <div class="col s12">
+              <h6 class="left resume-header">civic hackathon</h6>
+              <em><p class="right resume-p">jun 15</p></em>
+              <em><p class="resume-p clear">atlanta,ga,usa</p></em>
+            </div>
+          </div>
+          <p>
+            this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="card-panel">
+          <div class="row">
+            <div class="col s12">
+              <h6 class="left resume-header">civic hackathon</h6>
+              <em><p class="right resume-p">jun 15</p></em>
+              <em><p class="resume-p clear">atlanta,ga,usa</p></em>
+            </div>
+          </div>
+          <p>
+            this was my final project at <a href="#">the iron yard.</a> i really enjoyed working on it. its a platform for people to practice verb conjugations. we worked on the project for three weeks to create an mvp.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h5>professional experience</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h5>education</h5>
+    </div>
+  </div>
+</div>
+</div>
+<div id="contact" class="container" style="display:none;">
+  <div class="row" style="margin-bottom: 0">
+    <div class="col s12">
+      <div class="text-header">
+        <h1>contact</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <ul>
+        <li><a href="https://www.github.com/sunrick">github: github.com/sunrick</a></li>
+        <li><a href="https://www.linkedin.com/in/rsunden">linkedin: linkedin.com/in/rsunden</a></li>
+        <li><span>email: rickard.sunden@outlook.com </span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row" style="margin-bottom:0;">
+  <div class="col s12">
+    <a id="hidden" href="https://www.linkedin.com/in/rsunden">but seriously pls hire me?</a>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jquery.typer.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
