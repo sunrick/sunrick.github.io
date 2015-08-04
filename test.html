@@ -1,6 +1,15 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 <style>
+
 
 .link {
   stroke: transparent;
@@ -13,67 +22,36 @@
 
 </style>
 <body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<script>
+<nav class="transparent" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><span>~</span>rs<span></span></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">résumé</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">home</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">résumé</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse left"><i class="material-icons" style="margin-left: -4px;">menu</i></a>
+    </div>
+  </nav>
 
-var width = 960,
-    height = 600
 
-var color = d3.scale.category10();
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-var force = d3.layout.force()
-    .gravity(0.05)
-    .distance(85)
-    .charge(-100)
-    .size([width, height]);
-
-d3.json("graph.json", function(error, json) {
-  if (error) throw error;
-
-  force
-      .nodes(json.nodes)
-      .links(json.links)
-      .start();
-
-  var link = svg.selectAll(".link")
-      .data(json.links)
-    .enter().append("line")
-      .attr("class", "link");
-
-  var node = svg.selectAll(".node")
-      .data(json.nodes)
-    .enter().append("g")
-      .attr("class", "node")
-      .call(force.drag);
-
-  node.append("circle")
-      .attr("class", "test")
-      .attr("r", 30)             // set the radius
-      // .style("fill", "red");     // set the fill colour 
-      .style("fill", function(d) { return color(d.group); })
-      // .attr("x", -8)
-      // .attr("y", -8)
-      // .attr("width", 16)
-      // .attr("height", 16);
-
-  node.append("text")
-      .attr("x", 0)
-      .attr("dy", ".35em")
-      .attr("text-anchor", "middle")
-      .text(function(d) { return d.name });
-
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
-
-    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-  });
-});
 
 </script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/jquery.typer.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="js/skills.js"></script>
+</body>
+</html>

@@ -17,34 +17,20 @@ $( "#logo-container" )
 
 // webslides
 
-$('#logo-container').click(function(){
-	var currentContainer = $('.current').attr('id');
-	var clickedContainer = 'home';
-	if (currentContainer === clickedContainer) {
-	} 
-	else { 
-		$('div.container.current').fadeOut(500, function(){
-			$('#'+clickedContainer).fadeIn(500)});
-		$('.current').removeClass('current');
-		$('#'+clickedContainer).addClass('current');
+$('#logo-container, #nav-mobile li, ul.right.hide-on-med-and-down li').click(function(e){
+	var currentContainer = '#' + $('.current').attr('id');
+	var clickedContainer = $(this).children(":first").attr('href');
+	if(typeof clickedContainer === 'undefined') {
+		clickedContainer = $(this).attr('href');
 	}
-});
-
-$('#nav-mobile li, ul.right.hide-on-med-and-down li').click(function(){
-	var currentContainer = $('.current').attr('id');
-	var clickedContainer = $(this).text();
-
-	if (currentContainer === clickedContainer) {
-	} 
-	else { 
+	if (currentContainer != clickedContainer) {
 		$('div.container.current').fadeOut(500, function(){
-			$('#'+clickedContainer).fadeIn(500)});
-		$('.current').removeClass('current');
-		$('#'+clickedContainer).addClass('current');
+			$(clickedContainer).fadeIn(500)});
+			$('.current').removeClass('current');
+			$(clickedContainer).addClass('current');
 	}
+	e.preventDefault();
 });
-
-
 
 // #change color of website
 
