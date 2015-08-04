@@ -1,6 +1,6 @@
 {  
    "nodes":[  
-		{"name":"ruby on rails","group":1},
+{"name":"ruby on rails","group":1},
 {"name":"foreman","group":1},
 {"name":"jbuilder","group":1},
 {"name":"cancan","group":1},
@@ -10,7 +10,7 @@
 {"name":"devise","group":1},
 {"name":"heroku","group":1},
 {"name":"activerecord","group":1},
-{"name":"sqlite","group":1},
+{"name":"resque","group":1},
 {"name":"postgresql","group":1},
 {"name":"front-end","group":2},
 {"name":"html5","group":2},
@@ -51,7 +51,8 @@
 {"name":"photoshop","group":3},
 {"name":"finance","group":4},
 {"name":"management","group":4},
-{"name":"consulting","group":4}
+{"name":"consulting","group":4},
+{"name":"pry","group":1}
    ],
    "links":[
 {"source":1,"target":0},
@@ -101,6 +102,7 @@
 {"source":48,"target":21},
 {"source":49,"target":31},
 {"source":50,"target":31},
-{"source":51,"target":31}
+{"source":51,"target":31},
+{"source":52,"target":0}
 	]
 }
