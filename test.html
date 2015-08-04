@@ -11,6 +11,12 @@
   font: 10px sans-serif;
 }
 
+.test {
+  width:20px;
+  height:20px;
+  fill:red;
+}
+
 </style>
 <body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
@@ -19,12 +25,14 @@
 var width = 960,
     height = 500
 
+var color = d3.scale.category10();
+
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
 var force = d3.layout.force()
-    .gravity(.05)
+    .gravity(0.05)
     .distance(100)
     .charge(-100)
     .size([width, height]);
@@ -48,16 +56,21 @@ d3.json("graph.json", function(error, json) {
       .attr("class", "node")
       .call(force.drag);
 
-  node.append("image")
-      .attr("xlink:href", "https://github.com/favicon.ico")
-      .attr("x", -8)
-      .attr("y", -8)
-      .attr("width", 80)
-      .attr("height", 80);
+  node.append("circle")
+      .attr("class", "test")
+      .attr("r", 30)             // set the radius
+      // .style("fill", "red");     // set the fill colour 
+      .style("fill", function(d) { return color(d.group); })
+      // .attr("x", -8)
+      // .attr("y", -8)
+      // .attr("width", 16)
+      // .attr("height", 16);
 
   node.append("text")
-      .attr("dx", 12)
-      .attr("dy", ".35em")
+    .attr("dx", function(d){return -15})
+      // .text(function(d){return d.label})
+      // .attr("dx", 12)
+      // .attr("dy", ".35em")
       .text(function(d) { return d.name });
 
   force.on("tick", function() {
