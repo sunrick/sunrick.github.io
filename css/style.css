@@ -203,8 +203,33 @@ nav .brand-logo, nav ul a, nav i {
 /* resume styles */
 
 .skills-header {
-	font-size:120%;
+	font-size:110%;
 }
+
+.skills-list li {
+	float:left;
+	margin-right:2rem;
+	margin-bottom:0.5rem;
+	font-size:12px;
+}
+
+#resume .col {
+	position: relative;
+}
+
+#resume i {
+	position: absolute;
+	bottom:0;
+	right:0;
+	padding:0.25rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius:50%;
+}
+
+.resume-hidden .row:not(:first-child) {
+	display:none;
+}
+
 
 .resume-header{
 	margin-top:0; 
@@ -213,7 +238,7 @@ nav .brand-logo, nav ul a, nav i {
 
 @media (max-width: 600px) {
 	.resume-header{
-		font-size:110%;
+		font-size:120%;
 	}
 }
 
@@ -223,4 +248,21 @@ nav .brand-logo, nav ul a, nav i {
 
 .clear {
 	clear: both;
+}
+
+.invert {
+	-webkit-transform: rotate(180deg); /* Safari and Chrome */
+    -moz-transform: rotate(180deg);   /* Firefox */
+    -ms-transform: rotate(180deg);   /* IE 9 */
+    -o-transform: rotate(180deg);   /* Opera */
+    transform: rotate(180deg);
+}
+
+/*svg styling*/
+
+svg {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-9999;
 }
