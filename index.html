@@ -11,8 +11,9 @@
 <body>
   <nav class="transparent" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#home" class="brand-logo"><span>~</span>rs<span></span></a>
+      <a id="logo-container" href="#" class="brand-logo"><span>~</span>rs<span></span></a>
       <ul class="right hide-on-med-and-down">
+        <li><a href="#home">home</a></li>
         <li><a href="#portfolio">portfolio</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#resume">résumé</a></li>
@@ -198,16 +199,18 @@
       </div>
     </div>
   </div>
-  <div id="skills">
+  <div id="skills" class="resume-hidden">
     <div class="row">
       <div class="col s12">
-        <h5>skills</h5>
+        <h5 class="left">skills</h5>
+        <i class="material-icons">&#xE5CF;</i>
+        <a class="right hide-on-med-and-down" href="test.html" target="_blank" style="position:absolute; right:45px; bottom:2px; background-color: rgba(0, 0, 0, 0.1); padding:0.15rem 0.5rem; border-radius:5px;">fun version</a>
       </div>
     </div>
     <div class="row">
-      <div class="col s4 m4">
+    <div class="col s12">
         <h6 class="skills-header">programming languages</h6>
-        <ul>
+        <ul class="skills-list">
           <li>ruby</li>
           <li>javascript</li>
           <li>python</li>
@@ -215,42 +218,91 @@
         </ul>
 
       </div>
-      <div class="col s4 m4">
+    </div>
+    <div class="row">
+      <div class="col s12">
         <h6 class="skills-header">back-end</h6>
-        <ul>
+        <ul class="skills-list">
           <li>ruby on rails</li>
+          <li>resque</li>
           <li>cancan</li>
           <li>devise</li>
-        </ul>
-      </div>
-      <div class="col s4 m4">
-        <h6 class="skills-header">front-end</h6>
-        <ul>
-          <li>ruby on rails</li>
-          <li>cancan</li>
-          <li>devise</li>
+          <li>foreman</li>
+          <li>puma</li>
+          <li>pry</li>
+          <li>paperclip</li>
+          <li>aws-sdk3</li>
+          <li>heroku</li>
+          <li>activerecord</li>
+          <li>postgresql</li>
+          <li>jbuilder</li>
         </ul>
       </div>
     </div>
     <div class="row">
-      <div class="col s12 m4">
-        <h6>back-end</h6>
-
+      <div class="col s12">
+        <h6 class="skills-header">front-end</h6>
+        <ul class="skills-list">
+          <li>html5</li>
+          <li>css</li>
+          <li>javascript</li>
+          <li>jquery</li>
+          <li>bootstrap</li>
+          <li>materialize</li>
+          <li>foundation</li>
+          <li>d3.js</li>
+        </ul>
       </div>
-      <div class="col s12 m4">
-        <h6>back-end</h6>
-
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h6 class="skills-header">tools</h6>
+        <ul class="skills-list">
+          <li>git</li>
+          <li>github</li>
+          <li>sublime</li>
+          <li>postman</li>
+          <li>google</li>
+          <li>chrome</li>
+          <li>mac</li>
+          <li>windows</li>
+          <li>google docs</li>
+        </ul>
       </div>
-      <div class="col s12 m4">
-        <h6>back-end</h6>
-
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h6 class="skills-header">languages</h6>
+        <ul class="skills-list">
+          <li>english</li>
+          <li>swedish</li>
+          <li>french</li>
+          <li>spanish</li>
+          <li>dutch</li>
+          <li>mandarin</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h6 class="skills-header">business</h6>
+          <ul class="skills-list">
+            <li>ms office</li>
+            <li>all stats</li>
+            <li>finance</li>
+            <li>sap</li>
+            <li>management</li>
+            <li>consulting</li>
+          </ul>
       </div>
     </div>
   </div>
-  <div id="experience">
+
+  <div id="experience" class="resume-hidden">
     <div class="row">
       <div class="col s12">
         <h5 class="left">programming experience</h5>
+        <i class="material-icons">&#xE5CF;</i>
       </div>
     </div>
     <div class="row">
@@ -302,15 +354,21 @@
       </div>
     </div>
   </div>
+  <div id="professional" class="resume-hidden">
   <div class="row">
     <div class="col s12">
-      <h5>professional experience</h5>
+      <h5 class="left">professional experience</h5>
+      <i class="material-icons">&#xE5CF;</i>
     </div>
   </div>
+  </div>
+  <div id="education" class="resume-hidden">
   <div class="row">
     <div class="col s12">
-      <h5>education</h5>
+      <h5 class="left">education</h5>
+      <i class="material-icons">&#xE5CF;</i>
     </div>
+  </div>
   </div>
 </div>
 </div>
@@ -343,7 +401,5 @@
 <script src="js/jquery.typer.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<script src="js/skills.js"></script>
 </body>
 </html>
