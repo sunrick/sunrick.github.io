@@ -73,18 +73,6 @@ h5 {
   }
  }
 
-/* home page styling of stuff */
-
-/*ul {
-	margin-top:3px;
-}
-
-p {
-	margin-top:3px;
-	margin-bottom:3px;
-	line-height:1.2;
-}*/
-
 /* Ticker styling */
 
 .inline {
@@ -117,6 +105,10 @@ nav .brand-logo, nav ul a, nav i {
 
 .card-panel a {
 	font-weight: 500;
+}
+
+img.responsive-img {
+  max-width:90%;
 }
 
 /* but pls hire me */
