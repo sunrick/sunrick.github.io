@@ -267,3 +267,12 @@ svg {
 	left:0;
 	z-index:-9999;
 }
+
+.link {
+  stroke: transparent;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}

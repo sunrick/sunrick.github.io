@@ -16,14 +16,14 @@ $( "#logo-container" )
 
 // webslides
 
-$('#nav-mobile li, ul.right.hide-on-med-and-down li, #a-about').click(function(e){
+$('#nav-mobile li, ul.right.hide-on-med-and-down li, #a-about, .fun-version').click(function(e){
 	var currentContainer = '#' + $('.current').attr('id');
 	var clickedContainer = $(this).children(":first").attr('href');
 	if(typeof clickedContainer === 'undefined') {
 		clickedContainer = $(this).attr('href');
 	}
 	if (currentContainer != clickedContainer) {
-		$('div.container.current').fadeOut(500, function(){
+		$('div.current').fadeOut(500, function(){
 			$(clickedContainer).fadeIn(500)});
 		$('.current').removeClass('current');
 		$(clickedContainer).addClass('current');

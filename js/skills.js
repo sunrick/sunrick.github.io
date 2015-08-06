@@ -44,7 +44,7 @@ function funSkills() {
   var height = (windowHeight());
   var color = d3.scale.category10();
 
-  var svg = d3.select("body").append("svg")
+  var svg = d3.select("#fun-version").append("svg")
   .attr("width", width)
   .attr("height", height)
   .attr("id","skills");
