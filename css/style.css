@@ -211,7 +211,7 @@ img.responsive-img {
 
 #resume i {
 	position: absolute;
-	bottom:0;
+	bottom:3px;
 	right:0;
 	padding:0.25rem;
 	background-color: rgba(0, 0, 0, 0.1);
@@ -248,6 +248,15 @@ img.responsive-img {
     -ms-transform: rotate(180deg);   /* IE 9 */
     -o-transform: rotate(180deg);   /* Opera */
     transform: rotate(180deg);
+}
+
+.fun-version {
+  position:absolute; 
+  right:45px; 
+  bottom:4px; 
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding:0.15rem 0.5rem; 
+  border-radius:5px;
 }
 
 /*svg styling*/
