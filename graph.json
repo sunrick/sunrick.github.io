@@ -5,7 +5,7 @@
 {"name":"jbuilder","group":1},
 {"name":"cancan","group":1},
 {"name":"paperclip","group":1},
-{"name":"aws-sdk3","group":1},
+{"name":"aws-sdk","group":1},
 {"name":"puma","group":1},
 {"name":"devise","group":1},
 {"name":"heroku","group":1},
