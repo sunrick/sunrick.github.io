@@ -1,3 +1,7 @@
+//remove existing svg
+$('svg').remove();
+
+
 // because target blank gives window width and height of zero...
 if($(window).width() === 0){
   $( window ).resize(function(){
