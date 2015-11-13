@@ -124,6 +124,9 @@ img.responsive-img {
     -o-transition:opacity 0.5s ease-in-out;
     -ms-transition:opacity 0.5s ease-in-out;
     transition:opacity 0.5s ease-in-out;
+  position: fixed; 
+  right:0px; 
+  bottom:0px;
 }
 
 #hidden:hover {
