@@ -219,6 +219,7 @@ img.responsive-img {
 	padding:0.25rem;
 	background-color: rgba(0, 0, 0, 0.1);
 	border-radius:50%;
+  cursor: pointer;
 }
 
 .resume-hidden .row:not(:first-child) {
