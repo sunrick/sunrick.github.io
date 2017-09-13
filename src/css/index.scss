@@ -4,13 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.logo {
-  width: 3rem;
-}
-
 .fluid-container {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .grid {
   display: flex;
@@ -19,4 +15,7 @@ body {
 .column {
   flex: 1;
   padding: 0.75rem;
+  &:first-child {
+    padding-left: 0px;
+  }
 }
