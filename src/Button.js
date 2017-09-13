@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
+
 import './css/Button.css';
 
 class Button extends Component {
   render() {
     return (
-      <button className="Button">
+      <Link to={this.props.to || "#"} className="Button">
         {this.props.text}
-      </button>
+      </Link>
     );
   }
 }

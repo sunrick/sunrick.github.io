@@ -3,19 +3,18 @@ import Logo from './Logo.js';
 
 import './css/Navbar.css';
 
-class Navbar extends Component {
+class FixedNavbar extends Component {
   render() {
     return (
-      <div className="Navbar">
+      <div className="Fixed Navbar">
         <div className="left">
-          <Logo/>
         </div>
         <div className="right">
-          <p> placeholder </p>
+          <Logo/>
         </div>
       </div>
     );
   }
 }
 
-export default Navbar;
+export default FixedNavbar;

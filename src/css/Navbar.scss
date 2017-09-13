@@ -1,12 +1,14 @@
 .Navbar {
   padding-left: 3rem;
   padding-right: 3rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
-  height: 3rem;
+  height: 5rem;
   display: flex;
-  .logo {
-    height: 3rem;
+  &.Fixed {
+    position: fixed;
+    right: 0;
+    top: 0;
   }
   .left {}
   .right {
@@ -15,3 +17,4 @@
     flex-direction: row-reverse;
   }
 }
+
