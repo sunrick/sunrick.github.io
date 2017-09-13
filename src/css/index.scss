@@ -1,5 +1,22 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.fluid-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.grid {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0.75rem;
 }

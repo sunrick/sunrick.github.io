@@ -1,0 +1,21 @@
+.App {
+  padding-bottom: 5rem;
+}
+
+.title {
+  margin-bottom: 0px;
+}
+.subtitle {
+  margin-top: -0.25rem;
+}
+
+.buttons {
+  display: flex;
+  .Button {
+    margin-right: 0.5rem;
+  }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+}
