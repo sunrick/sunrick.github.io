@@ -75,9 +75,7 @@ class App extends Component {
               <h2> my passions </h2>
               <div className="buttons">
                 <Button text="coding"/>
-                <Button text="education"/>
-                <Button text="languages"/>
-                <Button text="sports"/>
+                <Button text="learning"/>
                 <Button text="fun"/>
               </div>
             </div>
