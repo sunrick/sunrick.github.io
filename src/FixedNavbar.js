@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Logo from './Logo.js';
+import {
+  Link
+} from 'react-router-dom';
 
 import './css/Navbar.css';
 
@@ -10,7 +13,9 @@ class FixedNavbar extends Component {
         <div className="left">
         </div>
         <div className="right">
-          <Logo/>
+          <Link to="/">
+            <Logo/>
+          </Link>
         </div>
       </div>
     );
