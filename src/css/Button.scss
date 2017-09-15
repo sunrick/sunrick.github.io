@@ -1,3 +1,14 @@
+.buttons {
+  display: flex;
+  .Button {
+    margin-right: 0.5rem;
+  }
+  p {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+}
+
 a.Button, .Button {
   border: 3px solid #000;
   border-radius: 5px;
