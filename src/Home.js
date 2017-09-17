@@ -34,9 +34,9 @@ class Home extends Component {
               </div>
               <h4> frameworks </h4>
               <div className="buttons">
-                <Button text="ruby on rails"/>
-                <Button text="react.js"/>
-                <Button text="phoenix"/>
+                <Button to="/ruby-on-rails" text="ruby on rails"/>
+                <Button to="/react" text="react.js"/>
+                <Button to="/phoenix" text="phoenix"/>
               </div>
             </div>
 
@@ -45,8 +45,8 @@ class Home extends Component {
             <div className="column">
               <h2> portfolio </h2>
               <div className="buttons">
-                <Button text="forms express 2.0"/>
-                <Button text="accord aca"/>
+                <Button to="forms-express" text="forms express 2.0"/>
+                <Button to="accord-aca" text="accord aca"/>
               </div>
             </div>
           </div>
@@ -54,9 +54,9 @@ class Home extends Component {
             <div className="column">
               <h2> résumé </h2>
               <div className="buttons">
-                <Button text="let's go on a journey"/>
+                <Button to="resume-fun" text="let's go on a journey"/>
                 <p> or </p>
-                <Button text="nah, download résumé"/>
+                <Button to="resume" text="nah, download résumé"/>
               </div>
             </div>
           </div>
@@ -64,9 +64,9 @@ class Home extends Component {
             <div className="column">
               <h2> contact </h2>
               <div className="buttons">
-                <Button text="github"/>
+                <Button to="https://github.com/sunrick" text="github"/>
                 <Button text="email"/>
-                <Button text="linkedin"/>
+                <Button to="https://www.linkedin.com/in/rsunden/" text="linkedin"/>
                 <Button text="blog"/>
               </div>
             </div>

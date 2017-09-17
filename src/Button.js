@@ -7,10 +7,12 @@ import './css/Button.css';
 
 class Button extends Component {
   render() {
+    const to = this.props.to || "#";
+    const text = this.props.text;
     return (
-      <Link to={this.props.to || "#"} className="Button">
-        {this.props.text}
-      </Link>
+      to.includes("https")
+      ? <a href={to} className="Button"> {text} </a>
+      : <Link to={to || "#"} className="Button"> {text}</Link>
     );
   }
 }
