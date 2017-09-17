@@ -29,8 +29,8 @@ class Home extends Component {
               <h4> languages </h4>
               <div className="buttons">
                 <Button to="/ruby" text="ruby"/>
-                <Button text="javascript"/>
-                <Button text="elixir"/>
+                <Button to="/javascript" text="javascript"/>
+                <Button to="/elixir" text="elixir"/>
               </div>
               <h4> frameworks </h4>
               <div className="buttons">
