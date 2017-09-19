@@ -40,6 +40,7 @@ class RubyOnRails extends Component {
               <h2> the future </h2>
               <p>
                 Rails will remain my preferred back-end as an API for the foreseeable future.
+                I'm also interested in using GraphQL in the near future.
               </p>
             </div>
           </div>
