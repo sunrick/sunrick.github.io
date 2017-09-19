@@ -5,7 +5,7 @@ import './css/Ruby.css';
 class Ruby extends Component {
   render() {
     return (
-      <div style={{ paddingBottom: "10rem" }}className="Ruby">
+      <div style={{ paddingBottom: "10rem" }} className="Ruby">
         <FixedNavbar/>
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }}className="grid">
@@ -20,6 +20,11 @@ class Ruby extends Component {
               <h2> about </h2>
               <p>
                 Right now Ruby is probably my strongest language and the one I enjoy coding in the most.
+              </p>
+              <p>
+                 Ruby just makes sense.
+              </p>
+              <p>
                 I love the simple syntax, how productive I am developing in it, it's extensive ecosystem of gems, abundance of learning materials and
                 the great community.
               </p>

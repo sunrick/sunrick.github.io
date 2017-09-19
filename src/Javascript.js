@@ -18,15 +18,33 @@ class Javascript extends Component {
               <p> 2+ years, professional </p>
               <h2> about </h2>
               <p>
-                javascript.
+                Javascript has slowly grown on me. I actually got my introduction to programming with Javascript over 8 years ago.
+                I really didn't like it at the time, everything seemed so complicated, the syntax hurt and I just wasn't familiar
+                with programming since I was teaching myself.
+              </p>
+              <p>
+                Things like variable scope, variable hoisting, event based programming,
+                weird browser quirks, and DOM interaction inconsistencies all threw me off.
+              </p>
+              <p>
+                Thanks to ES6, amazing libraries, and my growth as programmer, I now really enjoy Javascript despite it quirks.
               </p>
               <h2> how i use it </h2>
               <p>
-                hello.
+                I only really use Javascript for front-end development. I've toyed with the idea of using back-end js frameworks but
+                I just find Ruby to be better suited for back-end development.
+              </p>
+              <p>
+                I've built apps using vanilla Javascript, jQuery, React, Vue, Ember, Angular 1.
+                My go to front-end framework is React.
               </p>
               <h2> the future </h2>
               <p>
-                dog.
+                I see myself becoming exclusively a front-end developer. I love creating apps that are easy to use, have sleek UI,
+                and have impressive animations.
+              </p>
+              <p>
+                I'm really excited to keep building real time apps using WebRTC, Websockets and other cool tech.
               </p>
             </div>
           </div>

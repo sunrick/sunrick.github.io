@@ -18,15 +18,21 @@ class Elixir extends Component {
               <p> 6 months, hobby </p>
               <h2> about </h2>
               <p>
-                elixir.
+                Elixir has been my introduction to functional programming. It hurt a lot at first
+                but it has definitely given me a new perspective on programming.
+              </p>
+              <p>
+                I mainly like Elixir because of its Ruby like syntax, its speed, and its concurrency capabilities.
+                The OTP paradigm is really cool too.
               </p>
               <h2> how i use it </h2>
               <p>
-                hello.
+                I mainly use Elixir for back-end API development and experimentation.
               </p>
               <h2> the future </h2>
               <p>
-                dog.
+                I could see myself eventually using Elixir and Phoenix for all of my back-end development needs.
+                Mainly for apps that require real time functionality, and high performance.
               </p>
             </div>
           </div>
