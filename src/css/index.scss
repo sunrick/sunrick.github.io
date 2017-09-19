@@ -19,4 +19,8 @@ body {
   &:first-child {
     padding-left: 0px;
   }
+  &.is-6 {
+    width: 50%;
+    flex: none;
+  }
 }

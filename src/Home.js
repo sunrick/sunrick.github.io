@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button.js';
 import FixedNavbar from './FixedNavbar.js';
-import SVGBackground from './SVGBackground.js';
 
 import './css/Home.css';
 
@@ -10,7 +9,6 @@ class Home extends Component {
     return (
       <div className="Home">
         <FixedNavbar/>
-        <SVGBackground/>
         <div className="fluid-container">
           <div className="grid">
             <div className="column">
