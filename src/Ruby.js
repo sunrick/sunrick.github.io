@@ -16,7 +16,7 @@ class Ruby extends Component {
           <div className="grid">
             <div className="column is-6">
               <h2> experience </h2>
-              <p> 2+ years </p>
+              <p> 2+ years, professional </p>
               <h2> about </h2>
               <p>
                 Right now Ruby is probably my strongest language and the one I enjoy coding in the most.

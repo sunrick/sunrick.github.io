@@ -15,7 +15,7 @@ class Javascript extends Component {
           <div className="grid">
             <div className="column is-6">
               <h2> experience </h2>
-              <p> 5+ years </p>
+              <p> 2+ years, professional </p>
               <h2> about </h2>
               <p>
                 javascript.
