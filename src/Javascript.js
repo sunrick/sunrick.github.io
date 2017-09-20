@@ -18,7 +18,7 @@ class Javascript extends Component {
               <p> 2+ years, professional </p>
               <h2> about </h2>
               <p>
-                Javascript has slowly grown on me. I actually got my introduction to programming with Javascript over 8 years ago.
+                Javascript was my introduction to programming over 8 years ago.
                 I really didn't like it at the time, everything seemed so complicated, the syntax hurt and I just wasn't familiar
                 with programming since I was teaching myself.
               </p>
@@ -31,7 +31,7 @@ class Javascript extends Component {
               </p>
               <h2> how i use it </h2>
               <p>
-                I only really use Javascript for front-end development. I've toyed with the idea of using back-end js frameworks but
+                I use Javascript mostly for front-end development. I've toyed with the idea of using back-end js frameworks but
                 I just find Ruby to be better suited for back-end development.
               </p>
               <p>

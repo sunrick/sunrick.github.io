@@ -22,7 +22,7 @@ class Elixir extends Component {
                 but it has definitely given me a new perspective on programming.
               </p>
               <p>
-                I mainly like Elixir because of its Ruby like syntax, its speed, and its concurrency capabilities.
+                I mainly like Elixir because of its Ruby like syntax, its speed, and its concurrency.
                 The OTP paradigm is really cool too.
               </p>
               <h2> how i use it </h2>

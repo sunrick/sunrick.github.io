@@ -17,8 +17,19 @@ class Home extends Component {
             </div>
           </div>
           <div className="grid">
-            <div className="column">
-              <p> i develop software out of atlanta, ga, usa. </p>
+            <div className="column is-6">
+              <p>
+                Hello. My name is Rickard.
+              </p>
+              <p>
+                I develop software out of Atlanta, GA, USA.
+              </p>
+              <p>
+                I create web and mobile apps but also fiddle around with robots.
+              </p>
+              <p>
+                Need something built? <a href="#"> Contact me. </a>
+              </p>
             </div>
           </div>
           <div className="grid">
