@@ -44,7 +44,7 @@ class Home extends Component {
               <h4> frameworks </h4>
               <div className="buttons">
                 <Button to="/ruby-on-rails" text="ruby on rails"/>
-                <Button to="/react" text="react.js"/>
+                <Button to="/react" text="react"/>
                 <Button to="/phoenix" text="phoenix"/>
               </div>
             </div>
@@ -73,8 +73,8 @@ class Home extends Component {
             <div className="column">
               <h2> contact </h2>
               <div className="buttons">
-                <Button to="https://github.com/sunrick" text="github"/>
                 <Button text="email"/>
+                <Button to="https://github.com/sunrick" text="github"/>
                 <Button to="https://www.linkedin.com/in/rsunden/" text="linkedin"/>
                 <Button text="blog"/>
               </div>

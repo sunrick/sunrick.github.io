@@ -9,7 +9,7 @@ class ReactJS extends Component {
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }} className="grid">
             <div className="column">
-              <h1 style={{fontSize: "4em", marginTop: "0.85rem", marginBottom: "0.85rem" }}> react.js </h1>
+              <h1 style={{fontSize: "4em", marginTop: "0.85rem", marginBottom: "0.85rem" }}> react </h1>
             </div>
           </div>
           <div className="grid">
@@ -38,7 +38,7 @@ class ReactJS extends Component {
                 create-react-app handles 99% of what I need for my projects.
               </p>
               <p>
-                For state management I prefer to use Mobx because of its intuitive API and lack of boilerplate code.
+                For state management I prefer to use Mobx because of its intuitive API.
                 For deployment I normally use S3 and Route 53.
               </p>
               <p>
@@ -46,8 +46,8 @@ class ReactJS extends Component {
               </p>
               <h2> the future </h2>
               <p>
-                I want to eventually become a React and React Native expert. I want to continue to develop
-                desktop apps in Electron + React, mobile apps with React Native and web apps with React JS.
+                I want to eventually become a React and React Native expert. Something I'm interested in is building
+                desktop apps in Electron + React.
               </p>
             </div>
           </div>
