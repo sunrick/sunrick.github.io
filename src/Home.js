@@ -54,8 +54,7 @@ class Home extends Component {
             <div className="column">
               <h2> portfolio </h2>
               <div className="buttons">
-                <Button to="forms-express" text="forms express 2.0"/>
-                <Button to="accord-aca" text="accord aca"/>
+                <Button to="/portfolio" text="check out some projects i've built"/>
               </div>
             </div>
           </div>

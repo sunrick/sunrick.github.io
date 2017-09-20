@@ -13,6 +13,7 @@ import RubyOnRails from './RubyOnRails.js';
 import ReactJS from './ReactJS.js';
 import Phoenix from './Phoenix.js';
 
+import Portfolio from './Portfolio.js';
 import FormsExpress from './FormsExpress.js';
 import Accord from './Accord.js';
 
@@ -35,8 +36,9 @@ class App extends Component {
           <Route path="/react" exact component={ReactJS}/>
           <Route path="/phoenix" exact component={Phoenix}/>
 
-          <Route path="/forms-express" exact component={FormsExpress}/>
-          <Route path="/accord-aca" exact component={Accord}/>
+          <Route path="/portfolio" exact component={Portfolio}/>
+          <Route path="/portfolio/forms-express" exact component={FormsExpress}/>
+          <Route path="/portfolio/accord-aca" exact component={Accord}/>
 
           <Route path="/resume-fun" exact component={Journey}/>
           <Route path="/resume" exact component={Download}/>
