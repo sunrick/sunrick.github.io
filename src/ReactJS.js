@@ -4,7 +4,7 @@ import FixedNavbar from './FixedNavbar.js';
 class ReactJS extends Component {
   render() {
     return (
-      <div className="ReactJS">
+      <div style={{ backgroundColor: "#61dafb" }} className="ReactJS">
         <FixedNavbar/>
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }} className="grid">

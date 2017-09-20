@@ -4,7 +4,7 @@ import FixedNavbar from './FixedNavbar.js';
 class RubyOnRails extends Component {
   render() {
     return (
-      <div className="RubyOnRails">
+      <div style={{ backgroundColor: "#cc0000", color: "#fff" }} className="RubyOnRails">
         <FixedNavbar/>
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }} className="grid">

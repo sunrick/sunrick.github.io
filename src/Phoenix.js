@@ -4,7 +4,7 @@ import FixedNavbar from './FixedNavbar.js';
 class Phoenix extends Component {
   render() {
     return (
-      <div className="Phoenix">
+      <div style={{ backgroundColor: "#F67938", color: "#fff" }} className="Phoenix">
         <FixedNavbar/>
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }} className="grid">
