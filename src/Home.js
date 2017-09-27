@@ -28,7 +28,7 @@ class Home extends Component {
                 I create web and mobile apps but also fiddle around with robots.
               </p>
               <p>
-                Need something built? <a href="#"> Contact me. </a>
+                Need something built? <a href="/"> Contact me. </a>
               </p>
             </div>
           </div>
