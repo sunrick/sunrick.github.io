@@ -29,13 +29,6 @@ const programming = [
     location: "atlanta, ga, usa",
     title: "ruby on rails engineering student",
     summary: "12 week intensive programming course aimed at preparing students to be junior level ruby on rails developers. the course is focused on preparing students on how to think like a programmer, how to produce high quality web applications and how to work effectively in teams across the development stack. the course culminates in a personal/team project to create an application that addresses a technology need and to showcase what students have learned over the 12 weeks."
-  },
-  {
-    company: "dabench.com",
-    date: "apr 12 - may 13",
-    location: "madrid, spain",
-    title: "co-founder",
-    summary: "co-founded a social media website catered to football (soccer) fans. within the first month of launching the website, we generated 120,000 page views and 30,000 visits with 20,000 of those visitors being unique."
   }
 ];
 
@@ -108,7 +101,13 @@ class Download extends Component {
           <div className="grid">
             <div className="column is-6">
               <h2> summary </h2>
-              <p> </p>
+              <p> Hello. I'm half Swedish and half American. I've lived in 9 countries and I enjoy making a difference in the world through code. </p>
+              <p> You can count on me to: </p>
+              <ul>
+                <li> Develop high quality software </li>
+                <li> Work well in a team </li>
+                <li> Make a difference </li>
+              </ul>
               <h2> skills </h2>
               <h4> programming languages </h4>
               <ul>

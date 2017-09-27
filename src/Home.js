@@ -64,7 +64,7 @@ class Home extends Component {
               <div className="buttons">
                 <Button to="resume-fun" text="let's go on a journey"/>
                 <p> or </p>
-                <Button to="resume" text="nah, download résumé"/>
+                <Button to="resume" text="nah, show me the résumé"/>
               </div>
             </div>
           </div>
