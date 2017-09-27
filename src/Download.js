@@ -40,7 +40,27 @@ const programming = [
 ];
 
 const professional = [
-
+  {
+    company: "ups global business services",
+    date: "dec 14 - feb 14",
+    location: "atlanta, ga, usa",
+    title: "finance and accounting systems specialist",
+    summary: "worked in a team responsible for managing ups supply chain solutions billing/accounting it systems. point of contact/intermediary for the etms it system for developers and their customers. this involved dealing with tickets, recurring reporting issues and communicating with developers on a weekly basis. provided support to other team members’ projects. this involved attending meetings, preparing documents and learning how to manage a project. documented and improved team processes. redesigned an internal customer satisfaction survey procedure based on findings."
+  },
+  {
+    company: "ups global business services",
+    date: "oct 14 - dec 14",
+    location: "atlanta, ga, usa",
+    title: "order to cash intern",
+    summary: "worked in a team responsible for monitoring and improving ups customer processes before and after their packages have been shipped. worked with speech analytics software to analyze customer calls to ups call centers worldwide. main task was to find what the customer pain points were along my team's processes. developed a strategy to identify customer issues, improving overall query accuracy by more than 70%. created, updated and optimized queries to retrieve relevant and accurate call data. provided extensive documentation and a framework on how to use the speech analytics software effectively for the whole department.presented findings to top level management in the Global Business Services division."
+  },
+  {
+    company: "amadeus it group sa",
+    date: "aug 11 – aug 12",
+    location: "madrid, spain",
+    title: "commercial finance analyst",
+    summary: "key member of a team responsible for supporting internal account managers and global travel agencies with financial and kpi reporting, contract implementation, and ad-hoc analysis. personally responsible for accounts which represented 25% of amadeus’ yearly booking volume and provided day-to-day support to key corporate travel management agencies. utilized database programs such as business objects (allstats), sap, and ms access to extract essential data for reporting, clients, and account management. reduced total lead time of monthly reoccurring reports and database queries from two weeks to three days."
+  }
 ]
 
 const education = [
