@@ -24,17 +24,15 @@ class Phoenix extends Component {
 
               <h2> how i use it </h2>
               <p>
-                Right now I mainly use Phoenix for personal projects as a learning experience. I'm very lucky
-                that Phoenix is so inspired by Rails because it has made the transition so much easier.
+                Right now I mainly use Phoenix for personal projects as a learning experience.
               </p>
               <p>
                 I deploy Phoenix apps on Heroku and use PostgresSQL as my database.
               </p>
               <h2> the future </h2>
               <p>
-                I think eventually I will use Phoenix for all of my back-end development needs. Right now
-                I'm so productive with Rails thats its hard to justify using a new framework. For professional apps that require real time features
-                and performance I will consider using Phoenix.
+                I think eventually I will use Phoenix for all of my back-end development needs. I forsee using Phoenix
+                for any app that requires high performance and real time functionality.
               </p>
             </div>
           </div>
