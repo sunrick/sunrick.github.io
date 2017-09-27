@@ -39,6 +39,41 @@ const programming = [
   }
 ];
 
+const professional = [
+
+]
+
+const education = [
+  {
+    company: "lancaster university",
+    date: "09 - 14",
+    location: "lancaster, england",
+    title: "bsc hons management (study abroad) – 2:1 degree",
+    summary: "the degree covered a wide spectrum of business subjects. specialized in accounting and finance modules including: financial statement analysis, corporate finance, investment and portfolio management."
+  },
+  {
+    company: "hong kong university of science and technology",
+    date: "10 - 11",
+    location: "hong kong, china",
+    title: "exchange year",
+    summary: "lead an exchange student organization, enrolled in chinese (mandarin) modules, and member in a six month management consulting project for a company (mag infinity) in hong kong"
+  },
+  {
+    company: "american school of the hague",
+    date: "07 - 09",
+    location: "wassenaar, the netherlands",
+    title: "international baccalaureate",
+    summary: ""
+  },
+  {
+    company: "lake forest high school",
+    date: "05 - 07",
+    location: "lake forest, il, usa",
+    title: "",
+    summary: ""
+  }
+]
+
 class Download extends Component {
   render() {
     return (
@@ -88,7 +123,30 @@ class Download extends Component {
                   </div>
                 )
               })}
-              <h2> professional expreience </h2>
+              <h2> professional experience </h2>
+              {professional.map((job) => {
+                return(
+                  <div>
+                    <h4> {job.company} </h4>
+                    <p> {job.date} </p>
+                    <p> {job.location} </p>
+                    <p> {job.title} </p>
+                    <p> {job.summary} </p>
+                  </div>
+                )
+              })}
+              <h2> education </h2>
+              {education.map((school) => {
+                return(
+                  <div>
+                    <h4> {school.company} </h4>
+                    <p> {school.date} </p>
+                    <p> {school.location} </p>
+                    <p> {school.title} </p>
+                    <p> {school.summary} </p>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </div>
