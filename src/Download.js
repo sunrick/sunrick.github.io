@@ -171,7 +171,7 @@ class Download extends Component {
               {programming.map((job) => {
                 return(
                   <div>
-                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
                     <p style={{marginBottom: 0}}>Company: {job.company}</p>
                     <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
                     <p style={{marginTop: 0}}>When: {job.date} </p>
@@ -189,7 +189,7 @@ class Download extends Component {
               {professional.map((job) => {
                 return(
                   <div>
-                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
                     <p style={{marginBottom: 0}}>Company: {job.company}</p>
                     <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
                     <p style={{marginTop: 0}}>When: {job.date} </p>
@@ -207,7 +207,7 @@ class Download extends Component {
               {education.map((job) => {
                 return(
                   <div>
-                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
                     <p style={{marginBottom: 0}}>Company: {job.company}</p>
                     <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
                     <p style={{marginTop: 0}}>When: {job.date} </p>
