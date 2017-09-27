@@ -3,127 +3,124 @@ import FixedNavbar from './FixedNavbar.js';
 
 const programming = [
   {
-    company: "accord systems llc",
-    date: "apr 16 - current",
-    location: "alpharetta, ga, usa",
-    title: "ruby on rails developer",
+    company: "Accord Systems LLC",
+    date: "Apr 16 - Current",
+    location: "Alpharetta, GA, USA",
+    title: "Ruby on Rails Developer",
     description: "",
     summary: [
-      "in a team of three other developers working on a full stack application for the health insurance industry, specifically health care compliance reporting."
+      "In a team of three other developers working on a full stack application for the health insurance industry, specifically health care compliance reporting."
     ]
   },
   {
-    company: "codesmith development",
-    date: "dec 15 - apr 16",
-    location: "atlanta, ga, usa",
-    title: "ruby on rails developer",
+    company: "Codesmith Development",
+    date: "Dec 15 - Apr 16",
+    location: "Atlanta, GA, USA",
+    title: "Ruby on Rails Developer",
     description: "",
     summary: [
-      "built rails api with two other backend developers for a campaign management platform.",
-      "built rails api for a mobile app similar to tinder, supports real time chat, push notifications, location and other criteria based matching.",
-      "built rails api for tracking an essential company process."
+      "Built Rails API with two other backend developers for a campaign management platform.",
+      "Built Rails API for a mobile app similar to tinder, supports real time chat, push notifications, location and other criteria based matching.",
+      "Built Rails API for tracking an essential company process."
     ]
   },
   {
-    company: "the iron yard",
-    date: "sep 15 - nov 15",
-    location: "atlanta, ga, usa",
-    title: "ruby on rails teacher assistant",
+    company: "The Iron Yard",
+    date: "Sep 15 - Nov 15",
+    location: "Atlanta, GA, USA",
+    title: "Ruby on Rails Teacher Assistant",
     description: "",
     summary: [
-      "responsibilities include helping students with their homework, reinforcing concepts learned in class, and assisting with grading."
+      "Responsibilities include helping students with their homework, reinforcing concepts learned in class, and assisting with grading."
     ]
   },
   {
-    company: "the iron yard",
-    date: "may 15 - jul 15",
-    location: "atlanta, ga, usa",
-    title: "ruby on rails engineering student",
-    description: "12 week intensive programming course aimed at preparing students to be junior level ruby on rails developers.",
-    summary: [
-      "the course is focused on preparing students on how to think like a programmer, how to produce high quality web applications and how to work effectively in teams across the development stack.",
-      "the course culminates in a personal/team project to create an application that addresses a technology need and to showcase what students have learned over the 12 weeks."
-    ]
+    company: "The Iron Yard",
+    date: "May 15 - Jul 15",
+    location: "Atlanta, GA, USA",
+    title: "Ruby on Rails Engineering Student",
+    description: "12 week intensive programming course aimed at preparing students to be junior level Ruby on Rails developers.",
+    summary: []
   }
 ];
 
 const professional = [
   {
-    company: "ups global business services",
-    date: "dec 14 - feb 14",
-    location: "atlanta, ga, usa",
-    title: "finance and accounting systems specialist",
-    description: "worked in a team responsible for managing ups supply chain solutions billing/accounting it systems.",
+    company: "UPS Global Business Services",
+    date: "Dec 14 - Feb 14",
+    location: "Atlanta, GA, USA",
+    title: "Finance and Accounting Systems Specialist",
+    description: "Worked in a team responsible for managing UPS Supply Chain Solutions billing/accounting IT systems.",
     summary: [
-      "point of contact/intermediary for the etms it system for developers and their customers.",
-      "this involved dealing with tickets, recurring reporting issues and communicating with developers on a weekly basis.",
-      "provided support to other team members’ projects.",
-      "this involved attending meetings, preparing documents and learning how to manage a project.",
-      "documented and improved team processes.",
-      "redesigned an internal customer satisfaction survey procedure based on findings."
+      "Point of contact/intermediary for the ETMS IT system for developers and their customers.",
+      "This involved dealing with tickets, recurring reporting issues and communicating with developers on a weekly basis.",
+      "Provided support to other team members’ projects.",
+      "This involved attending meetings, preparing documents and learning how to manage a project.",
+      "Documented and improved team processes.",
+      "Redesigned an internal customer satisfaction survey procedure based on findings."
     ]
   },
   {
-    company: "ups global business services",
-    date: "oct 14 - dec 14",
-    location: "atlanta, ga, usa",
-    title: "order to cash intern",
-    description: "worked in a team responsible for monitoring and improving ups customer processes before and after their packages have been shipped.",
+    company: "UPS Global Business Services",
+    date: "Oct 14 - Dec 14",
+    location: "Atlanta, GA, USA",
+    title: "Order to Cash Intern",
+    description: "Worked in a team responsible for monitoring and improving ups customer processes before and after their packages have been shipped.",
     summary: [
-      "worked with speech analytics software to analyze customer calls to ups call centers worldwide.",
-      "main task was to find what the customer pain points were along my team's processes.",
-      "developed a strategy to identify customer issues, improving overall query accuracy by more than 70%.",
-      "created, updated and optimized queries to retrieve relevant and accurate call data.",
-      "provided extensive documentation and a framework on how to use the speech analytics software effectively for the whole department.presented findings to top level management in the Global Business Services division."
+      "Worked with speech analytics software to analyze customer calls to ups call centers worldwide.",
+      "Main task was to find what the customer pain points were along my team's processes.",
+      "Developed a strategy to identify customer issues, improving overall query accuracy by more than 70%.",
+      "Created, updated and optimized queries to retrieve relevant and accurate call data.",
+      "Provided extensive documentation and a framework on how to use the speech analytics software effectively for the whole department.presented findings to top level management in the Global Business Services division."
     ]
   },
   {
-    company: "amadeus it group sa",
-    date: "aug 11 – aug 12",
-    location: "madrid, spain",
-    title: "commercial finance analyst",
+    company: "Amadeus IT Group SA",
+    date: "Aug 11 – Aug 12",
+    location: "Madrid, Spain",
+    title: "Commercial Finance Analyst",
     description: "",
     summary: [
-      "key member of a team responsible for supporting internal account managers and global travel agencies with financial and kpi reporting, contract implementation, and ad-hoc analysis.",
-      "personally responsible for accounts which represented 25% of amadeus’ yearly booking volume and provided day-to-day support to key corporate travel management agencies.",
-      "utilized database programs such as business objects (allstats), sap, and ms access to extract essential data for reporting, clients, and account management.",
-      "reduced total lead time of monthly reoccurring reports and database queries from two weeks to three days."
+      "Key member of a team responsible for supporting internal account managers and global travel agencies with financial and KPI reporting, contract implementation, and ad-hoc analysis.",
+      "Personally responsible for accounts which represented 25% of amadeus’ yearly booking volume and provided day-to-day support to key corporate travel management agencies.",
+      "Utilized database programs such as business objects (allstats), sap, and ms access to extract essential data for reporting, clients, and account management.",
+      "Reduced total lead time of monthly reoccurring reports and database queries from two weeks to three days."
     ]
   }
 ]
 
 const education = [
   {
-    company: "lancaster university",
+    company: "Lancaster University",
     date: "09 - 14",
-    location: "lancaster, england",
-    title: "bsc hons management (study abroad) – 2:1 degree",
-    description: "the degree covered a wide spectrum of business subjects. specialized in accounting and finance modules including: financial statement analysis, corporate finance, investment and portfolio management.",
-    summary: ""
+    location: "Lancaster, England",
+    title: "BSc Hons Managment (Study Abroad) – 2:1 degree",
+    description: "The degree covered a wide spectrum of business subjects. specialized in accounting and finance modules including: financial statement analysis, corporate finance, investment and portfolio management.",
+    summary: []
   },
   {
-    company: "hong kong university of science and technology",
+    company: "Hong Kong University of Science and Technology",
     date: "10 - 11",
-    location: "hong kong, china",
-    title: "exchange year",
-    description: "lead an exchange student organization, enrolled in chinese (mandarin) modules, and member in a six month management consulting project for a company (mag infinity) in hong kong",
-    summary: ""
+    location: "Hong Kong, China",
+    title: "Exchange year",
+    description: "Lead an exchange student organization, enrolled in chinese (mandarin) modules, and member in a six month management consulting project for a company (mag infinity) in hong kong",
+    summary: []
   },
   {
-    company: "american school of the hague",
+    company: "American School of the Hague",
     date: "07 - 09",
-    location: "wassenaar, the netherlands",
-    title: "international baccalaureate",
+    location: "Wassenaar, The Netherlands",
+    title: "International Baccalaureate",
     description: "",
-    summary: ""
+    summary: []
   },
   {
-    company: "lake forest high school",
+    company: "Lake Forest High School",
     date: "05 - 07",
-    location: "lake forest, il, usa",
+    location: "Lake Forest, IL, USA",
     title: "",
     description: "",
-    summary: ""
+    summary: []
   }
 ]
 
@@ -139,7 +136,7 @@ class Download extends Component {
             </div>
           </div>
           <div className="grid">
-            <div className="column is-6">
+            <div className="column">
               <h2> summary </h2>
               <p> Hello. I'm half Swedish and half American. I've lived in 9 countries and I enjoy making a difference in the world through code. </p>
               <p> You can count on me to: </p>
@@ -174,13 +171,16 @@ class Download extends Component {
               {programming.map((job) => {
                 return(
                   <div>
-                    <h4> {job.company} </h4>
-                    <p> {job.date} </p>
-                    <p> {job.location} </p>
-                    <p> {job.title} </p>
+                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
+                    <p style={{marginTop: 0}}>When: {job.date} </p>
                     <p> {job.description} </p>
-                    <ul>
-                      {job.summary.map((bullet) => { return(<li> { bullet } </li>) })}
+                    <p> Details </p>
+                    <ul style={{paddingLeft: 0}}>
+                      {job.summary.map((bullet) => {
+                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                      )}
                     </ul>
                   </div>
                 )
@@ -189,26 +189,35 @@ class Download extends Component {
               {professional.map((job) => {
                 return(
                   <div>
-                    <h4> {job.company} </h4>
-                    <p> {job.date} </p>
-                    <p> {job.location} </p>
-                    <p> {job.title} </p>
+                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
+                    <p style={{marginTop: 0}}>When: {job.date} </p>
                     <p> {job.description} </p>
-                    <ul>
-                      {job.summary.map((bullet) => { return(<li> { bullet } </li>) })}
+                    <p> Details </p>
+                    <ul style={{paddingLeft: 0}}>
+                      {job.summary.map((bullet) => {
+                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                      )}
                     </ul>
                   </div>
                 )
               })}
               <h2> education </h2>
-              {education.map((school) => {
+              {education.map((job) => {
                 return(
                   <div>
-                    <h4> {school.company} </h4>
-                    <p> {school.date} </p>
-                    <p> {school.location} </p>
-                    <p> {school.title} </p>
-                    <p> {school.description} </p>
+                    <h3 style={{marginBottom: 0}}> {job.title} </h3>
+                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
+                    <p style={{marginTop: 0}}>When: {job.date} </p>
+                    <p> {job.description} </p>
+                    <p> Details </p>
+                    <ul style={{paddingLeft: 0}}>
+                      {job.summary.map((bullet) => {
+                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                      )}
+                    </ul>
                   </div>
                 )
               })}
