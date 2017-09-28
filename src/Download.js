@@ -39,7 +39,7 @@ const programming = [
     date: "May 15 - Jul 15",
     location: "Atlanta, GA, USA",
     title: "Ruby on Rails Engineering Student",
-    description: "12 week intensive programming course aimed at preparing students to be junior level Ruby on Rails developers.",
+    description: "12 week intensive programming course aimed at preparing students to become Ruby on Rails developers.",
     summary: []
   }
 ];
@@ -53,9 +53,8 @@ const professional = [
     description: "Worked in a team responsible for managing UPS Supply Chain Solutions billing/accounting IT systems.",
     summary: [
       "Point of contact/intermediary for the ETMS IT system for developers and their customers.",
-      "This involved dealing with tickets, recurring reporting issues and communicating with developers on a weekly basis.",
-      "Provided support to other team members’ projects.",
-      "This involved attending meetings, preparing documents and learning how to manage a project.",
+      "Dealt with tickets, recurring reporting issues and communicated with developers on a weekly basis.",
+      "Provided support to other team members’ projects by attending meetings, and preparing documents.",
       "Documented and improved team processes.",
       "Redesigned an internal customer satisfaction survey procedure based on findings."
     ]
@@ -68,10 +67,11 @@ const professional = [
     description: "Worked in a team responsible for monitoring and improving ups customer processes before and after their packages have been shipped.",
     summary: [
       "Worked with speech analytics software to analyze customer calls to ups call centers worldwide.",
-      "Main task was to find what the customer pain points were along my team's processes.",
-      "Developed a strategy to identify customer issues, improving overall query accuracy by more than 70%.",
+      "Identified customer pain points along team's processes.",
       "Created, updated and optimized queries to retrieve relevant and accurate call data.",
-      "Provided extensive documentation and a framework on how to use the speech analytics software effectively for the whole department.presented findings to top level management in the Global Business Services division."
+      "Improved overall query accuracy by more than 70%.",
+      "Provided extensive documentation and framework on how to use the speech analytics software effectively for the whole department.",
+      "Presented findings to top level management."
     ]
   },
   {
@@ -94,7 +94,7 @@ const education = [
     company: "Lancaster University",
     date: "09 - 14",
     location: "Lancaster, England",
-    title: "BSc Hons Managment (Study Abroad) – 2:1 degree",
+    title: "BSc Hons Management (Study Abroad) – 2:1 degree",
     description: "The degree covered a wide spectrum of business subjects. specialized in accounting and finance modules including: financial statement analysis, corporate finance, investment and portfolio management.",
     summary: []
   },
@@ -172,14 +172,13 @@ class Download extends Component {
                 return(
                   <div>
                     <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
-                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
-                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
-                    <p style={{marginTop: 0}}>When: {job.date} </p>
-                    <p> {job.description} </p>
-                    <p> Details </p>
-                    <ul style={{paddingLeft: 0}}>
+                    <p style={{marginBottom: 0}}>{job.company}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
+                    <p style={{marginTop: 0}}>{job.date} </p>
+                    <p>{job.description}</p>
+                    <ul>
                       {job.summary.map((bullet) => {
-                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                        return(<li>{bullet}</li>) }
                       )}
                     </ul>
                   </div>
@@ -190,14 +189,13 @@ class Download extends Component {
                 return(
                   <div>
                     <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
-                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
-                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
-                    <p style={{marginTop: 0}}>When: {job.date} </p>
-                    <p> {job.description} </p>
-                    <p> Details </p>
-                    <ul style={{paddingLeft: 0}}>
+                    <p style={{marginBottom: 0}}>{job.company}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
+                    <p style={{marginTop: 0}}>{job.date} </p>
+                    <p>{job.description}</p>
+                    <ul>
                       {job.summary.map((bullet) => {
-                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                        return(<li>{bullet}</li>) }
                       )}
                     </ul>
                   </div>
@@ -207,15 +205,14 @@ class Download extends Component {
               {education.map((job) => {
                 return(
                   <div>
-                    <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
-                    <p style={{marginBottom: 0}}>Company: {job.company}</p>
-                    <p style={{marginTop: 0, marginBottom: 0}}>Location: {job.location} </p>
-                    <p style={{marginTop: 0}}>When: {job.date} </p>
-                    <p> {job.description} </p>
-                    <p> Details </p>
-                    <ul style={{paddingLeft: 0}}>
+                    <h3 style={{marginBottom: 0}}> {job.company.toLowerCase()} </h3>
+                    <p style={{marginBottom: 0}}>{job.title}</p>
+                    <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
+                    <p style={{marginTop: 0}}>{job.date} </p>
+                    <p>{job.description}</p>
+                    <ul>
                       {job.summary.map((bullet) => {
-                        return(<li style={{listStylePosition: "inside"}}> {bullet} </li>) }
+                        return(<li>{bullet}</li>) }
                       )}
                     </ul>
                   </div>
