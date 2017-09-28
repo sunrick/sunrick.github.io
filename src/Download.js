@@ -7,12 +7,12 @@ const programming = [
     date: "Apr 16 - Current",
     location: "Alpharetta, GA, USA",
     title: "Ruby on Rails Developer",
-    description: "Accord Systems is a software company specialized in building compliance reporting platforms for the Affordable Care Act (ACA).",
+    description: "Accord Systems is a software company specialized in building platforms for the Affordable Care Act (ACA) and HR industry.",
     summary: [
       "Lead developer on a new self service full stack Rails product (Forms Express).",
-      "Helping develop and maintain flagship full stack Rails product (Accord ACA).",
+      "Developer on flagship full stack Rails product (Accord ACA).",
       "Wrote over 800+ tests covering essential platform functionality.",
-      "Sped up an essential process by 1500 times (from 25 hours to 10 minutes).",
+      "Sped up an important process by 1500 times (from 25 hours to 10 minutes).",
     ]
   },
   {
@@ -20,11 +20,11 @@ const programming = [
     date: "Dec 15 - Apr 16",
     location: "Atlanta, GA, USA",
     title: "Ruby on Rails Developer",
-    description: "",
+    description: "Codesmith Development is a software development shop.",
     summary: [
+      "Lead developer for Rails API on a mobile app similar to Tinder, supports real time chat, push notifications, OAuth flows, location based matching.",
+      "Lead developer for Rails API for tracking a client's essential company process.",
       "Built Rails API with two other backend developers for a campaign management platform.",
-      "Built Rails API for a mobile app similar to tinder, supports real time chat, push notifications, location and other criteria based matching.",
-      "Built Rails API for tracking an essential company process."
     ]
   },
   {
@@ -32,9 +32,11 @@ const programming = [
     date: "Sep 15 - Nov 15",
     location: "Atlanta, GA, USA",
     title: "Ruby on Rails Teacher Assistant",
-    description: "",
+    description: "The Iron Yard is a programming school.",
     summary: [
-      "Responsibilities include helping students with their homework, reinforcing concepts learned in class, and assisting with grading."
+      "Helped students with coursework.",
+      "Reinforced concepts learned in class.",
+      "Assisted with grading assignments."
     ]
   },
   {
@@ -42,8 +44,13 @@ const programming = [
     date: "May 15 - Jul 15",
     location: "Atlanta, GA, USA",
     title: "Ruby on Rails Engineering Student",
-    description: "12 week intensive programming course aimed at preparing students to become Ruby on Rails developers.",
-    summary: []
+    description: "The Iron Yard is a programming school.",
+    summary: [
+      "Attended 12 week intensive programming course aimed at preparing students to become Ruby on Rails developers.",
+      "Built Spanish verb conjugation Rails API that supported 57,000+ conjugations.",
+      "Built restaurant health score web scraper at Atlanta Civic hackathon.",
+      "Built route optimization Rails API using Googles API. Supported up to 8 locations.",
+    ]
   }
 ];
 
@@ -82,11 +89,11 @@ const professional = [
     date: "Aug 11 – Aug 12",
     location: "Madrid, Spain",
     title: "Commercial Finance Analyst",
-    description: "",
+    description: "Amadeus is a leading IT and software provider to the travel industry.",
     summary: [
-      "Key member of a team responsible for supporting internal account managers and global travel agencies with financial and KPI reporting, contract implementation, and ad-hoc analysis.",
-      "Personally responsible for accounts which represented 25% of amadeus’ yearly booking volume and provided day-to-day support to key corporate travel management agencies.",
-      "Utilized database programs such as business objects (allstats), sap, and ms access to extract essential data for reporting, clients, and account management.",
+      "Supported internal account managers and global travel agencies with financial and KPI reporting, contract implementation, and ad-hoc analysis.",
+      "Responsible for accounts which represented 25% of Amadeus’ yearly booking volume and provided day-to-day support to corporate travel management agencies.",
+      "Utilized database programs, Business Objects (Allstats), SAP, and MS Access to extract data for reporting, clients, and account management.",
       "Reduced total lead time of monthly reoccurring reports and database queries from two weeks to three days."
     ]
   }
@@ -98,7 +105,7 @@ const education = [
     date: "09 - 14",
     location: "Lancaster, England",
     title: "BSc Hons Management (Study Abroad) – 2:1 degree",
-    description: "The degree covered a wide spectrum of business subjects. specialized in accounting and finance modules including: financial statement analysis, corporate finance, investment and portfolio management.",
+    description: "Specialized in Accounting and Finance. Notable modules: financial statement analysis, corporate finance, investment and portfolio management.",
     summary: []
   },
   {
@@ -106,7 +113,7 @@ const education = [
     date: "10 - 11",
     location: "Hong Kong, China",
     title: "Exchange year",
-    description: "Lead an exchange student organization, enrolled in chinese (mandarin) modules, and member in a six month management consulting project for a company (mag infinity) in hong kong",
+    description: "Lead an exchange student organization, enrolled in chinese (mandarin) modules, and member of a six month management consulting project for a company (Mag Infinity) in Hong Kong",
     summary: []
   },
   {
@@ -160,6 +167,12 @@ class Download extends Component {
                 <li> Ruby on rails </li>
                 <li> React </li>
                 <li> Phoenix </li>
+              </ul>
+              <h4> tools </h4>
+              <ul>
+                <li> Git/Github </li>
+                <li> Sublime </li>
+                <li> Mac </li>
               </ul>
               <h4> spoken languages </h4>
               <ul>

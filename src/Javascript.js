@@ -18,16 +18,14 @@ class Javascript extends Component {
               <p> 2+ years, professional </p>
               <h2> about </h2>
               <p>
-                Javascript was my introduction to programming over 8 years ago.
-                I really didn't like it at the time, everything seemed so complicated, the syntax hurt and I just wasn't familiar
-                with programming since I was teaching myself.
+                Javascript was my introduction to programming over 8 years ago. I started programming in Javascript professionally over 2 years ago.
               </p>
               <p>
-                Things like variable scope, variable hoisting, event based programming,
+                Javascript was challenging to learn at first. Things like variable scope, variable hoisting, event based programming,
                 weird browser quirks, and DOM interaction inconsistencies all threw me off.
               </p>
               <p>
-                Thanks to ES6, amazing libraries, and my growth as programmer, I now really enjoy Javascript despite it quirks.
+                I really like Javascript now, thanks to ES6, amazing libraries, and my growth as programmer.
               </p>
               <h2> how i use it </h2>
               <p>
@@ -37,6 +35,9 @@ class Javascript extends Component {
               <p>
                 I've built apps using vanilla Javascript, jQuery, React, Vue, Ember, Angular 1.
                 My go to front-end framework is React.
+              </p>
+              <p>
+                I like messing around with visualization/animation libraries like D3.js, Paper.js, SVG.js and Velocity.js.
               </p>
               <h2> the future </h2>
               <p>

@@ -23,8 +23,7 @@ class ReactJS extends Component {
               </p>
               <p>
                 I landed with React as my go to JS framework because of its rich ecosystem and
-                wide array of devices it supports. I mainly have used React.js but have built a few
-                apps using React Native.
+                because of React Native.
               </p>
               <p>
                 React and Vue helped me internalize component based architecture,
@@ -42,7 +41,7 @@ class ReactJS extends Component {
                 For deployment I normally use S3 and Route 53.
               </p>
               <p>
-                My favorite CSS framework to pair React with is Bulma, I'm familiar with Semantic UI, Bootstrap and Foundation.
+                My favorite CSS framework to pair React with is Bulma. I'm familiar with Semantic UI, Bootstrap and Foundation.
               </p>
               <h2> the future </h2>
               <p>

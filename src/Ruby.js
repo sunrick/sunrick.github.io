@@ -31,12 +31,12 @@ class Ruby extends Component {
               <h2> how i use it </h2>
               <p>
                 I primarily use Ruby for web development (Ruby on Rails, Sinatra) but I've also used it to write
-                web scrapers, to learn new programming concepts and to create fun gems.
+                web scrapers, learn new programming concepts and create fun gems.
                 I've also hacked together Arduino projects using Ruby.
               </p>
               <h2> the future </h2>
               <p>
-                I see Ruby as probably still being my go to language for any kind back-end/non UI development.
+                I see Ruby as being my go to language for any kind back-end/non UI development.
                 That means mostly building Rails APIs and hacking together personal projects.
               </p>
             </div>
