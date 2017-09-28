@@ -27,14 +27,13 @@ class PortfolioItem extends Component {
     this.setState({
       height: this.root.clientWidth,
       width: this.root.clientHeight,
-      duration: 40000
     }, this.drawSVG);
   }
 
   drawSVG = () => {
     const defaults = {
       yStart: this.root.clientHeight * -.25,
-      duration: 20000,
+      duration: 5000,
       easing: '>',
       font: {
         family: "sans-serif",
@@ -56,7 +55,7 @@ class PortfolioItem extends Component {
         duration: defaults.duration,
         easing: defaults.easing
       })
-      .x(this.state.width)
+      .x(this.state.width + this.text.length() / 2)
       .loop();
 
     this.pause();
