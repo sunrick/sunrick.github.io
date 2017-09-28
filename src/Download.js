@@ -80,7 +80,7 @@ const professional = [
       "Identified customer pain points along team's processes.",
       "Created, updated and optimized queries to retrieve relevant and accurate call data.",
       "Improved overall query accuracy by more than 70%.",
-      "Provided extensive documentation and framework on how to use the speech analytics software effectively for the whole department.",
+      "Wrote documentation and built framework on how to use the speech analytics software for the whole department.",
       "Presented findings to top level management."
     ]
   },
@@ -91,9 +91,9 @@ const professional = [
     title: "Commercial Finance Analyst",
     description: "Amadeus is a leading IT and software provider to the travel industry.",
     summary: [
-      "Supported internal account managers and global travel agencies with financial and KPI reporting, contract implementation, and ad-hoc analysis.",
-      "Responsible for accounts which represented 25% of Amadeus’ yearly booking volume and provided day-to-day support to corporate travel management agencies.",
-      "Utilized database programs, Business Objects (Allstats), SAP, and MS Access to extract data for reporting, clients, and account management.",
+      "Supported account managers and global travel agencies with financial and KPI reporting, contract implementation, and ad-hoc analysis.",
+      "Responsible for accounts that represented 25% of Amadeus’ yearly booking volume.",
+      "Utilized database programs, Business Objects (Allstats), SAP, and MS Access to extract data for reporting.",
       "Reduced total lead time of monthly reoccurring reports and database queries from two weeks to three days."
     ]
   }
@@ -105,16 +105,23 @@ const education = [
     date: "09 - 14",
     location: "Lancaster, England",
     title: "BSc Hons Management (Study Abroad) – 2:1 degree",
-    description: "Specialized in Accounting and Finance. Notable modules: financial statement analysis, corporate finance, investment and portfolio management.",
-    summary: []
+    description: "",
+    summary: [
+      "Specialized in Accounting and Finance.",
+      "Notable modules: financial statement analysis, corporate finance, investment and portfolio management.",
+    ]
   },
   {
     company: "Hong Kong University of Science and Technology",
     date: "10 - 11",
     location: "Hong Kong, China",
     title: "Exchange year",
-    description: "Lead an exchange student organization, enrolled in chinese (mandarin) modules, and member of a six month management consulting project for a company (Mag Infinity) in Hong Kong",
-    summary: []
+    description: "",
+    summary: [
+      "Lead an exchange student organization.",
+      "Enrolled in chinese (mandarin) modules",
+      "Member of a six month management consulting project for a company (Mag Infinity) in Hong Kong."
+    ]
   },
   {
     company: "American School of the Hague",
