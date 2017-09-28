@@ -7,9 +7,12 @@ const programming = [
     date: "Apr 16 - Current",
     location: "Alpharetta, GA, USA",
     title: "Ruby on Rails Developer",
-    description: "",
+    description: "Accord Systems is a software company specialized in building compliance reporting platforms for the Affordable Care Act (ACA).",
     summary: [
-      "In a team of three other developers working on a full stack application for the health insurance industry, specifically health care compliance reporting."
+      "Lead developer on a new self service full stack Rails product (Forms Express).",
+      "Helping develop and maintain flagship full stack Rails product (Accord ACA).",
+      "Wrote over 800+ tests covering essential platform functionality.",
+      "Sped up an essential process by 1500 times (from 25 hours to 10 minutes).",
     ]
   },
   {
@@ -64,9 +67,9 @@ const professional = [
     date: "Oct 14 - Dec 14",
     location: "Atlanta, GA, USA",
     title: "Order to Cash Intern",
-    description: "Worked in a team responsible for monitoring and improving ups customer processes before and after their packages have been shipped.",
+    description: "Worked in a team responsible for monitoring and improving UPS customer processes before and after their packages have been shipped.",
     summary: [
-      "Worked with speech analytics software to analyze customer calls to ups call centers worldwide.",
+      "Worked with speech analytics software to analyze customer calls to UPS call centers worldwide.",
       "Identified customer pain points along team's processes.",
       "Created, updated and optimized queries to retrieve relevant and accurate call data.",
       "Improved overall query accuracy by more than 70%.",
@@ -143,29 +146,29 @@ class Download extends Component {
               <ul>
                 <li> Develop high quality software on time </li>
                 <li> Work well in a team </li>
-                <li> Make a difference </li>
+                <li> Learn and adapt quickly </li>
               </ul>
               <h2> skills </h2>
               <h4> programming languages </h4>
               <ul>
-                <li> ruby </li>
-                <li> javascript </li>
-                <li> elixir </li>
+                <li> Ruby </li>
+                <li> Javascript </li>
+                <li> Elixir </li>
               </ul>
               <h4> programming frameworks </h4>
               <ul>
-                <li> ruby on rails </li>
-                <li> react </li>
-                <li> phoenix </li>
+                <li> Ruby on rails </li>
+                <li> React </li>
+                <li> Phoenix </li>
               </ul>
               <h4> spoken languages </h4>
               <ul>
-                <li> english </li>
-                <li> swedish </li>
-                <li> french </li>
-                <li> spanish </li>
-                <li> dutch </li>
-                <li> chinese (mandarin) </li>
+                <li> English </li>
+                <li> Swedish </li>
+                <li> French </li>
+                <li> Spanish </li>
+                <li> Dutch </li>
+                <li> Chinese (mandarin) </li>
               </ul>
               <h2> programming experience </h2>
               {programming.map((job) => {
