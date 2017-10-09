@@ -20,8 +20,6 @@ import Accord from './Accord.js';
 import Journey from './Journey.js';
 import Download from './Download.js';
 
-import './css/App.css';
-
 class App extends Component {
   render() {
     return (

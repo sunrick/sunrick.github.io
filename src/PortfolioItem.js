@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import SVG from 'svg.js';
-
-import './css/PortfolioItem.css';
+import React, { Component } from 'react'
+import SVG from 'svg.js'
+import styled from 'styled-components'
 
 
 class PortfolioItem extends Component {
@@ -71,15 +70,45 @@ class PortfolioItem extends Component {
 
   render() {
     return (
-      <a onMouseEnter={this.play} onMouseLeave={this.pause} href={this.props.url || "#"} className="PortfolioItem" ref={(el) => { this.root = el; }} >
-        <div className="content">
+      <Wrapper
+        onMouseEnter={this.play}
+        onMouseLeave={this.pause}
+        href={this.props.url || "#"}
+        innerRef={el => { this.root = el }}
+      >
+        <Content>
           <h1> {this.props.title} </h1>
           <h3> {this.props.subtitle} </h3>
-          <svg style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }} ref={(el) => { this.svgEl = el; }}></svg>
-        </div>
-      </a>
+          <SVGBox innerRef={el => { this.svgEl = el }}/>
+        </Content>
+      </Wrapper>
     );
   }
 }
+
+const Wrapper = styled.a`
+  display: block;
+  position: relative;
+  color: #000;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 3px solid black;
+`
+
+const Content = styled.div`
+  padding-top: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+`
+
+const SVGBox = styled.svg`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+`
 
 export default PortfolioItem;

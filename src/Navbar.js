@@ -1,21 +1,25 @@
-import React, { Component } from 'react';
-import Logo from './Logo.js';
+import React, { Component } from 'react'
+import Logo from './Logo.js'
+import { Nav, NavLeft, NavRight } from './component.js'
 
-import './css/Navbar.css';
+import './css/Navbar.css'
 
 class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar">
-        <div className="left">
+      <Nav>
+        <NavLeft>
           <Logo/>
-        </div>
-        <div className="right">
+        </NavLeft>
+        <NavRight>
           <p> placeholder </p>
-        </div>
-      </div>
+        </NavRight>
+      </Nav>
     );
   }
 }
 
-export default Navbar;
+
+
+export default Navbar
+

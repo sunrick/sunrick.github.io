@@ -3,21 +3,19 @@ import Logo from './Logo.js';
 import {
   Link
 } from 'react-router-dom';
-
-import './css/Navbar.css';
+import { FixedNav, NavLeft, NavRight } from './components.js'
 
 class FixedNavbar extends Component {
   render() {
     return (
-      <div className="Fixed Navbar">
-        <div className="left">
-        </div>
-        <div className="right">
+      <FixedNav>
+        <NavLeft/>
+        <NavRight>
           <Link to="/">
             <Logo/>
           </Link>
-        </div>
-      </div>
+        </NavRight>
+      </FixedNav>
     );
   }
 }

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import FixedNavbar from './FixedNavbar.js';
-import './css/Ruby.css';
 
 class Ruby extends Component {
   render() {
     return (
-      <div style={{ paddingBottom: "10rem" }} className="Ruby">
+      <div style={{ paddingBottom: "10rem", backgroundColor: "#CC342D", color: "#fff" }} className="Ruby">
         <FixedNavbar/>
         <div className="fluid-container">
           <div style={{ marginBottom: "0rem" }}className="grid">

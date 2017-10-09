@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Button from './Button.js';
-import FixedNavbar from './FixedNavbar.js';
-
-import './css/Home.css';
+import React, { Component } from 'react'
+import Button from './Button.js'
+import FixedNavbar from './FixedNavbar.js'
+import { Buttons } from './components.js'
+import styled from 'styled-components'
 
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <Wrapper>
         <FixedNavbar/>
         <div className="fluid-container">
           <div className="grid">
@@ -33,53 +33,57 @@ class Home extends Component {
             <div className="column">
               <h2> coding skills </h2>
               <h4> languages </h4>
-              <div className="buttons">
+              <Buttons>
                 <Button to="/ruby" text="ruby"/>
                 <Button to="/javascript" text="javascript"/>
                 <Button to="/elixir" text="elixir"/>
-              </div>
+              </Buttons>
               <h4> frameworks </h4>
-              <div className="buttons">
+              <Buttons>
                 <Button to="/ruby-on-rails" text="ruby on rails"/>
                 <Button to="/react" text="react"/>
                 <Button to="/phoenix" text="phoenix"/>
-              </div>
+              </Buttons>
             </div>
 
           </div>
           <div className="grid">
             <div className="column">
               <h2> portfolio </h2>
-              <div className="buttons">
+              <Buttons>
                 <Button to="/portfolio" text="check out some projects i've built"/>
-              </div>
+              </Buttons>
             </div>
           </div>
           <div className="grid">
             <div className="column">
               <h2> résumé </h2>
-              <div className="buttons">
+              <Buttons>
                 <Button to="resume-fun" text="let's go on a journey"/>
                 <p> or </p>
                 <Button to="resume" text="nah, show me the résumé"/>
-              </div>
+              </Buttons>
             </div>
           </div>
           <div className="grid">
             <div className="column">
               <h2> contact </h2>
-              <div className="buttons">
+              <Buttons>
                 <Button text="email"/>
                 <Button to="https://github.com/sunrick" text="github"/>
                 <Button to="https://www.linkedin.com/in/rsunden/" text="linkedin"/>
                 <Button text="blog"/>
-              </div>
+              </Buttons>
             </div>
           </div>
         </div>
-      </div>
+      </Wrapper>
     );
   }
 }
+
+const Wrapper = styled.div`
+  padding-bottom: 10rem;
+`
 
 export default Home;

@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
-import {
-  Link
-} from 'react-router-dom';
-
-import './css/Button.css';
+import React, { Component } from 'react'
+import { StyledButton, StyledLink } from './components.js'
 
 class Button extends Component {
   render() {
@@ -11,10 +7,12 @@ class Button extends Component {
     const text = this.props.text;
     return (
       to.includes("https")
-      ? <a href={to} className="Button"> {text} </a>
-      : <Link to={to || "#"} className="Button"> {text}</Link>
+      ? <StyledButton href={to} className="Button"> {text} </StyledButton>
+      : <StyledLink to={to || "#"}> {text}</StyledLink>
     );
   }
 }
 
-export default Button;
+export default Button
+
+
