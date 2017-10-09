@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
-import FixedNavbar from '../FixedNavbar.js'
 import StandardPage from '../StandardPage.js'
 import { Columns, Column } from '../components.js'
 

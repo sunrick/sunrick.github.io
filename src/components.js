@@ -1,11 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-
-import {
-  Link
-} from 'react-router-dom'
-
 import { Flex, Box } from 'grid-styled'
+import { Link } from 'react-router-dom'
+import Button from './components/Button.js'
 
 const FluidContainer = (props) => (
   <Box
@@ -89,7 +86,7 @@ const NavRight = styled.div`
 `
 
 export {
-  Buttons, StyledButton, StyledLink,
+  Button, Buttons, StyledButton, StyledLink,
   Nav, FixedNav, NavRight, NavLeft,
   Columns, Column, FluidContainer
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import Button from './Button.js'
-import { Buttons } from './components.js'
+import { Buttons, Button } from './components.js'
 import StandardWritingPage from  './writings/StandardWritingPage.js'
 
 class Home extends Component {
@@ -37,9 +36,7 @@ class Home extends Component {
         </Buttons>
         <h2> résumé </h2>
         <Buttons>
-          <Button to="resume-fun" text="let's go on a journey"/>
-          <p> or </p>
-          <Button to="resume" text="nah, show me the résumé"/>
+          <Button to="resume" text="show me the résumé"/>
         </Buttons>
         <h2> contact </h2>
         <Buttons>

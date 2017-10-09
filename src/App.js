@@ -13,12 +13,11 @@ import RubyOnRails from './writings/RubyOnRails.js';
 import ReactJS from './writings/ReactJS.js';
 import Phoenix from './writings/Phoenix.js';
 
-import Portfolio from './Portfolio.js';
-import FormsExpress from './FormsExpress.js';
-import Accord from './Accord.js';
+import Portfolio from './portfolio/Portfolio.js';
+import FormsExpress from './portfolio/FormsExpress.js';
+import Accord from './portfolio/Accord.js';
 
-import Journey from './Journey.js';
-import Download from './Download.js';
+import Resume from './resume/Resume.js';
 
 class App extends Component {
   render() {
@@ -38,8 +37,7 @@ class App extends Component {
           <Route path="/portfolio/forms-express" exact component={FormsExpress}/>
           <Route path="/portfolio/accord-aca" exact component={Accord}/>
 
-          <Route path="/resume-fun" exact component={Journey}/>
-          <Route path="/resume" exact component={Download}/>
+          <Route path="/resume" exact component={Resume}/>
 
         </Switch>
       </div>
