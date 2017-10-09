@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StandardPage from '../StandardPage.js'
+import { StandardWritingPage } from '../components.js'
 
 class RubyOnRails extends Component {
   render() {
     return (
-      <StandardPage title="ruby on rails" bgColor="#CC0000" color="#fff">
+      <StandardWritingPage title="ruby on rails" bgColor="#CC0000" color="#fff">
         <h2> experience </h2>
         <p> 2+ years, professional </p>
         <h2> about </h2>
@@ -33,7 +33,7 @@ class RubyOnRails extends Component {
           Rails will remain my preferred back-end as an API for the foreseeable future.
           I'm also interested in using GraphQL in the near future.
         </p>
-      </StandardPage>
+      </StandardWritingPage>
     )
   }
 }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StandardPage from './StandardWritingPage.js'
+import { StandardWritingPage } from '../components.js'
 
 class Phoenix extends Component {
   render() {
     return (
-      <StandardPage title="phoenix" bgColor="#F67938" color="#fff">
+      <StandardWritingPage title="phoenix" bgColor="#F67938" color="#fff">
         <h2> experience </h2>
         <p> 6 months, hobby </p>
         <h2> about </h2>
@@ -25,7 +25,7 @@ class Phoenix extends Component {
           I think eventually I will use Phoenix for all of my back-end development needs. I forsee using Phoenix
           for any app that requires high performance and real time functionality.
         </p>
-      </StandardPage>
+      </StandardWritingPage>
     )
   }
 }

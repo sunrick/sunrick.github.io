@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import StandardPage from '../StandardPage.js'
 import PortfolioItem from './PortfolioItem.js'
-import { Columns, Column } from '../components.js'
+import { Columns, Column, StandardPage } from '../components.js'
 
 class Portfolio extends Component {
   render() {

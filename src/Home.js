@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Buttons, Button } from './components.js'
-import StandardWritingPage from  './writings/StandardWritingPage.js'
+import { StandardWritingPage } from  './components.js'
 
 class Home extends Component {
   render() {

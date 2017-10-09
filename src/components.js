@@ -3,6 +3,11 @@ import styled from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 import { Link } from 'react-router-dom'
 import Button from './components/Button.js'
+import FixedNavbar from './components/FixedNavbar.js'
+import Logo from './components/Logo.js'
+import StandardPage from './components/StandardPage.js'
+import StandardWritingPage from './components/StandardWritingPage.js'
+
 
 const FluidContainer = (props) => (
   <Box
@@ -88,5 +93,7 @@ const NavRight = styled.div`
 export {
   Button, Buttons, StyledButton, StyledLink,
   Nav, FixedNav, NavRight, NavLeft,
-  Columns, Column, FluidContainer
+  Columns, Column, FluidContainer,
+  FixedNavbar, Logo, StandardPage,
+  StandardWritingPage
 }

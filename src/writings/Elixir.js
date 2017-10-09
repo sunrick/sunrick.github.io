@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StandardPage from './StandardWritingPage.js'
+import { StandardWritingPage } from '../components.js'
 
 class Elixir extends Component {
   render() {
     return (
-      <StandardPage title="elixir" bgColor="#4e2a8e" color="#fff">
+      <StandardWritingPage title="elixir" bgColor="#4e2a8e" color="#fff">
         <h2> experience </h2>
         <p> 6 months, hobby </p>
         <h2> about </h2>
@@ -24,7 +24,7 @@ class Elixir extends Component {
           I could see myself eventually using Elixir and Phoenix for all of my back-end development needs.
           Mainly for apps that require real time functionality, and high performance.
         </p>
-      </StandardPage>
+      </StandardWritingPage>
     )
   }
 }

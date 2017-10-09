@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import FixedNavbar from './FixedNavbar.js'
-import { FluidContainer } from './components.js'
+import { FixedNavbar, FluidContainer } from '../components.js'
 
 class StandardPage extends Component {
   render() {

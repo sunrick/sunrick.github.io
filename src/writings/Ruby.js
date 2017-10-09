@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StandardPage from './StandardWritingPage.js'
+import { StandardWritingPage } from '../components.js'
 
 class Ruby extends Component {
   render() {
     return (
-      <StandardPage title="ruby" bgColor="#CC342D" color="#fff">
+      <StandardWritingPage title="ruby" bgColor="#CC342D" color="#fff">
         <h2> experience </h2>
         <p> 2+ years, professional </p>
         <h2> about </h2>
@@ -29,7 +29,7 @@ class Ruby extends Component {
           I see Ruby as being my go to language for any kind back-end/non UI development.
           That means mostly building Rails APIs and hacking together personal projects.
         </p>
-      </StandardPage>
+      </StandardWritingPage>
     )
   }
 }

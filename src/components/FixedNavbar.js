@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Logo from './Logo.js';
-import {
-  Link
-} from 'react-router-dom';
-import { FixedNav, NavLeft, NavRight } from './components.js'
+import { Link } from 'react-router-dom';
+import { Logo, FixedNav, NavLeft, NavRight } from '../components.js'
 
 class FixedNavbar extends Component {
   render() {

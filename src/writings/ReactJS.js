@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import StandardPage from './StandardWritingPage.js'
+import { StandardWritingPage } from '../components.js'
 
 class ReactJS extends Component {
   render() {
     return (
-      <StandardPage title="react.js" bgColor="#61dafb" color="#000">
+      <StandardWritingPage title="react.js" bgColor="#61dafb" color="#000">
         <h2> experience </h2>
         <p> 6+ months, professional </p>
         <h2> about </h2>
@@ -39,7 +39,7 @@ class ReactJS extends Component {
           I want to eventually become a React and React Native expert. Something I'm interested in is building
           desktop apps in Electron + React.
         </p>
-      </StandardPage>
+      </StandardWritingPage>
     )
   }
 }

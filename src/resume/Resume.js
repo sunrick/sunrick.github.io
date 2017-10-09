@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import StandardPage from '../writings/StandardWritingPage.js'
+import { StandardWritingPage } from '../components.js'
 import store from './store.js'
 
 class Resume extends Component {
   render() {
     return (
-      <StandardPage title="résumé">
+      <StandardWritingPage title="résumé">
         <h2> summary </h2>
         <p> Hello. I'm half Swedish and half American. I've lived in 9 countries and I enjoy making a difference in the world through code. </p>
         <p> You can count on me to: </p>
@@ -93,7 +93,7 @@ class Resume extends Component {
             </div>
           )
         })}
-      </StandardPage>
+      </StandardWritingPage>
   )
   }
 }
