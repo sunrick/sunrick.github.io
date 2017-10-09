@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import StandardPage from '../StandardPage.js'
+import StandardPage from './StandardWritingPage.js'
 
 class Phoenix extends Component {
   render() {

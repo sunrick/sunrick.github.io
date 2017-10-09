@@ -4,6 +4,11 @@ import {
   Link
 } from 'react-router-dom'
 
+import { Flex, Box } from 'grid-styled'
+
+const Columns = Flex
+const Column = Box
+
 const Buttons = styled.div`
   display: flex;
   > a, button {
@@ -64,4 +69,8 @@ const NavRight = styled.div`
   flex-direction: row-reverse;
 `
 
-export { Buttons, StyledButton, StyledLink, Nav, FixedNav, NavRight, NavLeft }
+export {
+  Buttons, StyledButton, StyledLink,
+  Nav, FixedNav, NavRight, NavLeft,
+  Columns, Column
+}
