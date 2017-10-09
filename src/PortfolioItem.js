@@ -21,7 +21,6 @@ class PortfolioItem extends Component {
     window.removeEventListener("resize", this.computeSize);
   }
 
-
   computeSize = () => {
     this.setState({
       height: this.root.clientWidth,
@@ -108,7 +107,7 @@ const SVGBox = styled.svg`
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: 0;
 `
 
 export default PortfolioItem;
