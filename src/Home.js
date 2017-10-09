@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Button from './Button.js'
 import FixedNavbar from './FixedNavbar.js'
-import { Buttons } from './components.js'
+import { Buttons, FluidContainer, Columns, Column } from './components.js'
 import styled from 'styled-components'
 
 class Home extends Component {
@@ -9,15 +9,15 @@ class Home extends Component {
     return (
       <Wrapper>
         <FixedNavbar/>
-        <div className="fluid-container">
-          <div className="grid">
-            <div className="column">
+        <FluidContainer>
+          <Columns>
+            <Column width={1/2}>
               <h1 className="title"> software:developer </h1>
               <h3 className="subtitle"> rickard sundén </h3>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="column is-6">
+            </Column>
+          </Columns>
+          <Columns>
+            <Column width={1/2}>
               <p>
                 Hello. My name is Rickard.
               </p>
@@ -27,10 +27,10 @@ class Home extends Component {
               <p>
                 Need something built? <a href="/"> Contact me. </a>
               </p>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="column">
+            </Column>
+          </Columns>
+          <Columns>
+            <Column width={1/2}>
               <h2> coding skills </h2>
               <h4> languages </h4>
               <Buttons>
@@ -44,29 +44,28 @@ class Home extends Component {
                 <Button to="/react" text="react"/>
                 <Button to="/phoenix" text="phoenix"/>
               </Buttons>
-            </div>
-
-          </div>
-          <div className="grid">
-            <div className="column">
+            </Column>
+          </Columns>
+          <Columns>
+            <Column width={1/2}>
               <h2> portfolio </h2>
               <Buttons>
                 <Button to="/portfolio" text="check out some projects i've built"/>
               </Buttons>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="column">
+            </Column>
+          </Columns>
+          <Columns>
+            <Column width={1/2}>
               <h2> résumé </h2>
               <Buttons>
                 <Button to="resume-fun" text="let's go on a journey"/>
                 <p> or </p>
                 <Button to="resume" text="nah, show me the résumé"/>
               </Buttons>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="column">
+            </Column>
+          </Columns>
+          <Columns>
+            <Column width={1/2}>
               <h2> contact </h2>
               <Buttons>
                 <Button text="email"/>
@@ -74,9 +73,9 @@ class Home extends Component {
                 <Button to="https://www.linkedin.com/in/rsunden/" text="linkedin"/>
                 <Button text="blog"/>
               </Buttons>
-            </div>
-          </div>
-        </div>
+            </Column>
+          </Columns>
+        </FluidContainer>
       </Wrapper>
     );
   }

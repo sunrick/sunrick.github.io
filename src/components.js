@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 import {
@@ -6,8 +7,26 @@ import {
 
 import { Flex, Box } from 'grid-styled'
 
-const Columns = Flex
-const Column = Box
+const FluidContainer = (props) => (
+  <Box
+    {...props}
+    px={4}
+  />
+)
+
+const Columns = (props) => (
+  <Flex
+    {...props}
+    mx={-1}
+  />
+)
+
+const Column = (props) => (
+  <Box
+    {...props}
+    px={1}
+  />
+)
 
 const Buttons = styled.div`
   display: flex;
@@ -72,5 +91,5 @@ const NavRight = styled.div`
 export {
   Buttons, StyledButton, StyledLink,
   Nav, FixedNav, NavRight, NavLeft,
-  Columns, Column
+  Columns, Column, FluidContainer
 }

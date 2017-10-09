@@ -1,20 +1,21 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import FixedNavbar from './FixedNavbar.js'
+import { FluidContainer } from './components.js'
 
 class StandardPage extends Component {
   render() {
     return(
       <Wrapper {...this.props}>
         <FixedNavbar/>
-        <div className="fluid-container">
+        <FluidContainer>
           <TitleContainer>
             <Title> {this.props.title} </Title>
           </TitleContainer>
           <Content>
             {this.props.children}
           </Content>
-        </div>
+        </FluidContainer>
       </Wrapper>
     )
   }
