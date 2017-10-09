@@ -6,12 +6,12 @@ import {
 
 import Home from './Home.js';
 
-import Ruby from './Ruby.js';
-import Javascript from './Javascript.js';
-import Elixir from './Elixir.js';
-import RubyOnRails from './RubyOnRails.js';
-import ReactJS from './ReactJS.js';
-import Phoenix from './Phoenix.js';
+import Ruby from './writings/Ruby.js';
+import Javascript from './writings/Javascript.js';
+import Elixir from './writings/Elixir.js';
+import RubyOnRails from './writings/RubyOnRails.js';
+import ReactJS from './writings/ReactJS.js';
+import Phoenix from './writings/Phoenix.js';
 
 import Portfolio from './Portfolio.js';
 import FormsExpress from './FormsExpress.js';
