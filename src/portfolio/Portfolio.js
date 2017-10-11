@@ -8,10 +8,10 @@ class Portfolio extends Component {
       <StandardPage title="portfolio">
         <Columns>
           <Column width={1/2}>
-            <PortfolioItem title="forms express 2.0" subtitle="self service aca compliance reporting"/>
+            <PortfolioItem title="forms express 2.0" subtitle="self service aca compliance reporting" labels="ruby on rails"/>
           </Column>
           <Column width={1/2}>
-            <PortfolioItem title="accord aca" subtitle="aca compliance reporting"/>
+            <PortfolioItem title="accord aca" subtitle="aca compliance reporting" labels="ruby on rails"/>
           </Column>
         </Columns>
       </StandardPage>
