@@ -1,6 +1,35 @@
 const store = {
-  summary: {
-
+  skills: {
+    programming: {
+      languages: [
+        "Javascript",
+        "Ruby",
+        "Elixir"
+      ],
+      frameworks: [
+        "React JS",
+        "React Native",
+        "Ruby on Rails",
+        "Phoenix"
+      ],
+      tools: [
+        "Sublime",
+        "Mac",
+        "Git/Github",
+        "PostgresSQL",
+        "Redis",
+        "AWS",
+        "Heroku"
+      ]
+    },
+    spoken_languages: [
+      "English",
+      "Swedish",
+      "French",
+      "Spanish",
+      "Dutch",
+      "Chinese (Mandarin)"
+    ]
   },
   programming: [
     {
@@ -13,7 +42,7 @@ const store = {
         "Lead developer on a new self service full stack Rails product (Forms Express).",
         "Developer on flagship full stack Rails product (Accord ACA).",
         "Wrote over 800+ tests covering essential platform functionality.",
-        "Sped up an important process by 1500 times (from 25 hours to 10 minutes).",
+        "Sped up form generation by 1500 times (from 25 hours to 10 minutes).",
       ]
     },
     {
@@ -23,7 +52,7 @@ const store = {
       title: "Ruby on Rails Developer",
       description: "Codesmith Development is a software development shop.",
       summary: [
-        "Lead developer for Rails API on a mobile app similar to Tinder, supports real time chat, push notifications, OAuth flows, location based matching.",
+        "Lead developer for Rails API on a mobile app similar to Tinder, supported real time chat, push notifications, OAuth flows, location based matching.",
         "Lead developer for Rails API for tracking a client's essential company process.",
         "Built Rails API with two other backend developers for a campaign management platform.",
       ]
@@ -103,9 +132,10 @@ const store = {
       company: "Lancaster University",
       date: "09 - 14",
       location: "Lancaster, England",
-      title: "BSc Hons Management (Study Abroad) – 2:1 degree",
+      title: "BSc Hons Management (Study Abroad)",
       description: "",
       summary: [
+        "2:1 degree",
         "Specialized in Accounting and Finance.",
         "Notable modules: financial statement analysis, corporate finance, investment and portfolio management.",
       ]

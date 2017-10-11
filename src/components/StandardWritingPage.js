@@ -8,7 +8,7 @@ class StandardWritingPage extends Component {
     return(
       <StandardPage {...this.props}>
         <Columns>
-          <Column width={1/2}>
+          <Column width={[1, 1/2]}>
             {this.props.children}
           </Column>
         </Columns>

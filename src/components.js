@@ -12,7 +12,7 @@ import StandardWritingPage from './components/StandardWritingPage.js'
 const FluidContainer = (props) => (
   <Box
     {...props}
-    px={4}
+    px={[2,4]}
   />
 )
 
@@ -30,8 +30,30 @@ const Column = (props) => (
   />
 )
 
+const Labels = styled.div`
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: -0.5rem;
+  > * {
+    margin-right: 0.5rem;
+  }
+`
+
+const Label = styled.div`
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0.5rem 0.75rem;
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-bottom: 0.5rem;
+`
+
 const Buttons = styled.div`
   display: flex;
+  align-items: flex-start;
   > a, button {
     margin-right: 0.5rem;
   }
@@ -95,5 +117,5 @@ export {
   Nav, FixedNav, NavRight, NavLeft,
   Columns, Column, FluidContainer,
   FixedNavbar, Logo, StandardPage,
-  StandardWritingPage
+  StandardWritingPage, Labels, Label
 }

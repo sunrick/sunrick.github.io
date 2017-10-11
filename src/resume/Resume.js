@@ -1,5 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import styled from 'styled-components'
 import { StandardWritingPage } from '../components.js'
+import SkillList from './SkillList.js'
+import Job from './Job.js'
+import School from './School.js'
 import store from './store.js'
 
 class Resume extends Component {
@@ -14,88 +18,39 @@ class Resume extends Component {
           <li> Work well in a team </li>
           <li> Learn and adapt quickly </li>
         </ul>
-        <h2> skills </h2>
-        <h4> programming languages </h4>
-        <ul>
-          <li> Ruby </li>
-          <li> Javascript </li>
-          <li> Elixir </li>
-        </ul>
-        <h4> programming frameworks </h4>
-        <ul>
-          <li> Ruby on rails </li>
-          <li> React </li>
-          <li> Phoenix </li>
-        </ul>
-        <h4> tools </h4>
-        <ul>
-          <li> Git/Github </li>
-          <li> Sublime </li>
-          <li> Mac </li>
-        </ul>
-        <h4> spoken languages </h4>
-        <ul>
-          <li> English </li>
-          <li> Swedish </li>
-          <li> French </li>
-          <li> Spanish </li>
-          <li> Dutch </li>
-          <li> Chinese (mandarin) </li>
-        </ul>
-        <h2> programming experience </h2>
-        {store.programming.map((job) => {
-          return(
-            <div>
-              <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
-              <p style={{marginBottom: 0}}>{job.company}</p>
-              <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
-              <p style={{marginTop: 0}}>{job.date} </p>
-              <p>{job.description}</p>
-              <ul>
-                {job.summary.map((bullet) => {
-                  return(<li>{bullet}</li>) }
-                )}
-              </ul>
-            </div>
-          )
-        })}
-        <h2> professional experience </h2>
-        {store.professional.map((job) => {
-          return(
-            <div>
-              <h3 style={{marginBottom: 0}}> {job.title.toLowerCase()} </h3>
-              <p style={{marginBottom: 0}}>{job.company}</p>
-              <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
-              <p style={{marginTop: 0}}>{job.date} </p>
-              <p>{job.description}</p>
-              <ul>
-                {job.summary.map((bullet) => {
-                  return(<li>{bullet}</li>) }
-                )}
-              </ul>
-            </div>
-          )
-        })}
-        <h2> education </h2>
-        {store.education.map((job) => {
-          return(
-            <div>
-              <h3 style={{marginBottom: 0}}> {job.company.toLowerCase()} </h3>
-              <p style={{marginBottom: 0}}>{job.title}</p>
-              <p style={{marginTop: 0, marginBottom: 0}}>{job.location} </p>
-              <p style={{marginTop: 0}}>{job.date} </p>
-              <p>{job.description}</p>
-              <ul>
-                {job.summary.map((bullet) => {
-                  return(<li>{bullet}</li>) }
-                )}
-              </ul>
-            </div>
-          )
-        })}
+        <Section>
+          <h2> skills </h2>
+          <SkillList title="programming languages" items={store.skills.programming.languages}/>
+          <SkillList title="programming frameworks" items={store.skills.programming.frameworks}/>
+          <SkillList title="tools" items={store.skills.programming.tools}/>
+          <SkillList title="spoken languages" items={store.skills.spoken_languages}/>
+        </Section>
+        <Section>
+          <h2> programming experience </h2>
+          {store.programming.map((job) => {
+            return <Job job={job}/>
+          })}
+        </Section>
+        <Section>
+          <h2> professional experience </h2>
+          {store.professional.map((job) => {
+            return <Job job={job}/>
+          })}
+        </Section>
+        <Section>
+          <h2> education </h2>
+          {store.education.map((school) => {
+            return <School school={school}/>
+          })}
+        </Section>
       </StandardWritingPage>
   )
   }
 }
 
 export default Resume;
+
+
+const Section = styled.div`
+  margin-top: 2.5rem;
+`

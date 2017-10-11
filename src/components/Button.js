@@ -7,7 +7,7 @@ class Button extends Component {
     const text = this.props.text;
     return (
       to.includes("https")
-      ? <StyledButton href={to} className="Button"> {text} </StyledButton>
+      ? <StyledButton href={to}> {text} </StyledButton>
       : <StyledLink to={to || "#"}> {text}</StyledLink>
     );
   }
