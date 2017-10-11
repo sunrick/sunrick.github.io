@@ -66,7 +66,7 @@ const store = {
       summary: [
         "Helped students with coursework.",
         "Reinforced concepts learned in class.",
-        "Assisted with grading assignments."
+        "Graded assignments and provided feedback."
       ]
     },
     {
