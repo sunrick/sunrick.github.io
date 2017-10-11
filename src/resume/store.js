@@ -1,4 +1,15 @@
 const store = {
+  summary: {
+    tagline: "Hello. I enjoy making a difference in the world through code. I'm half Swedish and half American. I've lived in 9 countries.",
+    dependencies: {
+      intro: "You can count on me to:",
+      items: [
+        "Develop high quality software on time",
+        "Work well in a team ",
+        "Learn and adapt quickly"
+      ]
+    }
+  },
   skills: {
     programming: {
       languages: [
@@ -86,7 +97,7 @@ const store = {
   professional: [
     {
       company: "UPS Global Business Services",
-      date: "Dec 14 - Feb 14",
+      date: "Dec 14 - Feb 15",
       location: "Atlanta, GA, USA",
       title: "Finance and Accounting Systems Specialist",
       description: "Worked in a team responsible for managing UPS Supply Chain Solutions billing/accounting IT systems.",

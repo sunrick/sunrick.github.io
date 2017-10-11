@@ -4,20 +4,14 @@ import { StandardWritingPage } from '../components.js'
 import SkillList from './SkillList.js'
 import Job from './Job.js'
 import School from './School.js'
+import Summary from './Summary.js'
 import store from './store.js'
 
 class Resume extends Component {
   render() {
     return (
       <StandardWritingPage title="résumé">
-        <h2> summary </h2>
-        <p> Hello. I enjoy making a difference in the world through code. I'm half Swedish and half American. I've lived in 9 countries. </p>
-        <p> You can count on me to: </p>
-        <ul>
-          <li> Develop high quality software on time </li>
-          <li> Work well in a team </li>
-          <li> Learn and adapt quickly </li>
-        </ul>
+        <Summary summary={store.summary}/>
         <Section>
           <h2> skills </h2>
           <SkillList title="programming languages" items={store.skills.programming.languages}/>
@@ -44,7 +38,7 @@ class Resume extends Component {
           })}
         </Section>
       </StandardWritingPage>
-  )
+    )
   }
 }
 
