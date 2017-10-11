@@ -7,7 +7,7 @@ class Resume extends Component {
     return (
       <StandardWritingPage title="résumé">
         <h2> summary </h2>
-        <p> Hello. I'm half Swedish and half American. I've lived in 9 countries and I enjoy making a difference in the world through code. </p>
+        <p> Hello. I enjoy making a difference in the world through code. I'm half Swedish and half American. I've lived in 9 countries. </p>
         <p> You can count on me to: </p>
         <ul>
           <li> Develop high quality software on time </li>

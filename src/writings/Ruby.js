@@ -9,20 +9,15 @@ class Ruby extends Component {
         <p> 2+ years, professional </p>
         <h2> about </h2>
         <p>
-          Right now Ruby is probably my strongest language and the one I enjoy coding in the most.
+          Right now Ruby is probably my strongest language.
         </p>
         <p>
-           Ruby just makes sense.
-        </p>
-        <p>
-          I love the simple syntax, how productive I am developing in it, it's extensive ecosystem of gems, abundance of learning materials and
-          the great community.
+          I love the simple syntax, how productive I am developing in it, it's extensive ecosystem of gems, and abundance of learning materials.
         </p>
         <h2> how i use it </h2>
         <p>
           I primarily use Ruby for web development (Ruby on Rails, Sinatra) but I've also used it to write
-          web scrapers, learn new programming concepts and create fun gems.
-          I've also hacked together Arduino projects using Ruby.
+          web scrapers and create fun gems. I've also hacked together Arduino projects using Ruby.
         </p>
         <h2> the future </h2>
         <p>

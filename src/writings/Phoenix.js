@@ -9,7 +9,6 @@ class Phoenix extends Component {
         <p> 6 months, hobby </p>
         <h2> about </h2>
         <p>
-          Hooray for high concurrency and performance.
           I'm really excited for Phoenix and Elixir to become part of my toolkit.
         </p>
 

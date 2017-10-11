@@ -9,10 +9,7 @@ class RubyOnRails extends Component {
         <p> 2+ years, professional </p>
         <h2> about </h2>
         <p>
-          Like Ruby, Rails just makes sense to me.
-        </p>
-        <p>
-          I like how Rails stresses the idea of convention over configuration. I can
+          I like how Rails promotes convention over configuration. I can
           get things done quickly and write well organized code. I don't have to worry about
           writing boring boilerplate code. It just works.
         </p>

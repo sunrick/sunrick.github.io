@@ -20,14 +20,14 @@ class Home extends Component {
         <h2> coding skills </h2>
         <h4> languages </h4>
         <Buttons>
-          <Button to="/ruby" text="ruby"/>
           <Button to="/javascript" text="javascript"/>
+          <Button to="/ruby" text="ruby"/>
           <Button to="/elixir" text="elixir"/>
         </Buttons>
         <h4> frameworks </h4>
         <Buttons>
-          <Button to="/ruby-on-rails" text="ruby on rails"/>
           <Button to="/react" text="react"/>
+          <Button to="/ruby-on-rails" text="ruby on rails"/>
           <Button to="/phoenix" text="phoenix"/>
         </Buttons>
         <h2> portfolio </h2>

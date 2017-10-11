@@ -9,7 +9,7 @@ class Javascript extends Component {
         <p> 2+ years, professional </p>
         <h2> about </h2>
         <p>
-          Javascript was my introduction to programming over 8 years ago. I started programming in Javascript professionally over 2 years ago.
+          I started programming in Javascript professionally over 2 years ago.
         </p>
         <p>
           Javascript was challenging to learn at first. Things like variable scope, variable hoisting, event based programming,
@@ -20,8 +20,7 @@ class Javascript extends Component {
         </p>
         <h2> how i use it </h2>
         <p>
-          I use Javascript mostly for front-end development. I've toyed with the idea of using back-end js frameworks but
-          I just find Ruby to be better suited for back-end development.
+          I use Javascript mostly for front-end development. I've also built Javascript games in Phasher. I've also built APIs in Express.
         </p>
         <p>
           I've built apps using vanilla Javascript, jQuery, React, Vue, Ember, Angular 1.
@@ -33,10 +32,10 @@ class Javascript extends Component {
         <h2> the future </h2>
         <p>
           I see myself becoming exclusively a front-end developer. I love creating apps that are easy to use, have sleek UI,
-          and have impressive animations.
+          and subtle animations.
         </p>
         <p>
-          I'm really excited to keep building real time apps using WebRTC, Websockets and other cool tech.
+          I'm really excited to keep building real time apps using WebRTC, Websockets and games using Javascript.
         </p>
       </StandardWritingPage>
     )

@@ -1,4 +1,7 @@
 const store = {
+  summary: {
+
+  },
   programming: [
     {
       company: "Accord Systems LLC",

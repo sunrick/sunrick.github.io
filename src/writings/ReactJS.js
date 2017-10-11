@@ -17,14 +17,12 @@ class ReactJS extends Component {
           because of React Native.
         </p>
         <p>
-          React and Vue helped me internalize component based architecture,
-          a pattern that has really served me well in organizing my Javascript code.
+          React helped me internalize component based architecture.
           I love how powerful React is for developing web and mobile apps.
         </p>
         <h2> how i use it </h2>
         <p>
-          I use Facebook's yarn and create-react-app to generate and manage my React apps.
-          One of my pet peeves is having to write my own configuration code, like Rails,
+          I use Facebook's yarn and create-react-app and create-react-native-app to generate and manage my React apps.
           create-react-app handles 99% of what I need for my projects.
         </p>
         <p>
@@ -32,11 +30,11 @@ class ReactJS extends Component {
           For deployment I normally use S3 and Route 53.
         </p>
         <p>
-          My favorite CSS framework to pair React with is Bulma. I'm familiar with Semantic UI, Bootstrap and Foundation.
+          My favorite libraries in React right now are Styled Components, React Navigation, and React Router.
         </p>
         <h2> the future </h2>
         <p>
-          I want to eventually become a React and React Native expert. Something I'm interested in is building
+          I want to eventually become a React and React Native expert. Something else that I'm interested in is building
           desktop apps in Electron + React.
         </p>
       </StandardWritingPage>
