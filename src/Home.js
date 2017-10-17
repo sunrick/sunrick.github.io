@@ -6,16 +6,19 @@ class Home extends Component {
   render() {
     return (
       <StandardWritingPage>
-        <h1 className="title"> software:developer </h1>
-        <h3 className="subtitle"> rickard sundén </h3>
+        <h1 className="title">rickard sundén</h1>
+        <h3 className="subtitle">software developer</h3>
         <p>
-          Hello. My name is Rickard.
+          Hello.
         </p>
         <p>
           I develop software out of Atlanta, GA, USA.
         </p>
         <p>
-          Need something built? <a href="/"> Contact me. </a>
+          Read more about me <a href="/">here</a> and <a href="/">here</a>.
+        </p>
+        <p>
+          Need to get in touch? <a href="/"> Contact me. </a>
         </p>
         <h2> coding skills </h2>
         <h4> languages </h4>
@@ -41,7 +44,7 @@ class Home extends Component {
         <h2> contact </h2>
         <Buttons>
           <Button text="email"/>
-          <Button to="https://github.com/sunrick" text="github"/>
+          <Button to="https://" text="github"/>
           <Button to="https://www.linkedin.com/in/rsunden/" text="linkedin"/>
           <Button text="blog"/>
         </Buttons>

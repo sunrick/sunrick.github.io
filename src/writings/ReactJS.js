@@ -23,7 +23,6 @@ class ReactJS extends Component {
         <h2> how i use it </h2>
         <p>
           I use Facebook's yarn and create-react-app and create-react-native-app to generate and manage my React apps.
-          create-react-app handles 99% of what I need for my projects.
         </p>
         <p>
           For state management I prefer to use Mobx because of its intuitive API.

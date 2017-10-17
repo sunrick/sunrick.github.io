@@ -1,11 +1,18 @@
 const store = {
+  contact: {
+    name: "Rickard Sundén",
+    email: "rickard@sunden.io",
+    linkedin: "linkedin.com/in/rsunden/",
+    github: "github.com/sunrick/",
+    portfolio: "sunden.io"
+  },
   summary: {
-    tagline: "Hello. I enjoy making a difference in the world through code. I'm half Swedish and half American. I've lived in 9 countries.",
+    tagline: "Hello. I'm half Swedish and half American. I've lived in 9 countries. I enjoy making a difference in the world through code.",
     intro: "You can count on me to:",
     items: [
-      "Develop high quality software on time",
-      "Work well in a team ",
-      "Learn and adapt quickly"
+      "Develop high quality software on time.",
+      "Work well in a team.",
+      "Learn and adapt quickly."
     ]
   },
   skills: {
@@ -25,6 +32,9 @@ const store = {
         "Sublime",
         "Mac",
         "Git/Github",
+        "Node",
+        "Webpack",
+        "Babel",
         "PostgresSQL",
         "Redis",
         "AWS",
@@ -50,7 +60,7 @@ const store = {
       summary: [
         "Lead developer on a new self service full stack Rails product (Forms Express).",
         "Developer on flagship full stack Rails product (Accord ACA).",
-        "Wrote over 800+ tests covering essential platform functionality.",
+        "Wrote over 800+ tests using RSpec covering essential platform functionality.",
         "Sped up form generation by 1500 times (from 25 hours to 10 minutes).",
       ]
     },
@@ -112,7 +122,7 @@ const store = {
       date: "Oct 14 - Dec 14",
       location: "Atlanta, GA, USA",
       title: "Order to Cash Intern",
-      description: "Worked in a team responsible for monitoring and improving UPS customer processes before and after their packages have been shipped.",
+      description: "Worked in a team responsible for monitoring and improving UPS customer shipping processes.",
       summary: [
         "Worked with speech analytics software to analyze customer calls to UPS call centers worldwide.",
         "Identified customer pain points along team's processes.",
@@ -144,7 +154,7 @@ const store = {
       title: "BSc Hons Management (Study Abroad)",
       description: "",
       summary: [
-        "2:1 degree",
+        "2:1 degree.",
         "Specialized in Accounting and Finance.",
         "Notable modules: financial statement analysis, corporate finance, investment and portfolio management.",
       ]
@@ -157,7 +167,7 @@ const store = {
       description: "",
       summary: [
         "Lead an exchange student organization.",
-        "Enrolled in chinese (mandarin) modules",
+        "Enrolled in chinese (mandarin) modules.",
         "Member of a six month management consulting project for a company (Mag Infinity) in Hong Kong."
       ]
     },
@@ -177,7 +187,23 @@ const store = {
       description: "",
       summary: []
     }
-  ]
+  ],
+  other: {
+    sports: [
+      "Play and watch soccer.",
+      "Go Karting.",
+      "Rock climbing."
+    ],
+    volunteering: [
+      "Assistant coach for soccer.",
+      "Tutor kids in programming."
+    ],
+    learning: [
+      "Ruby meetups.",
+      "React meetups.",
+      "Language classes."
+    ]
+  }
 }
 
 export default store

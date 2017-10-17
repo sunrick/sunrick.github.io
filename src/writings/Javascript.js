@@ -13,7 +13,7 @@ class Javascript extends Component {
         </p>
         <p>
           Javascript was challenging to learn at first. Things like variable scope, variable hoisting, event based programming,
-          weird browser quirks, and DOM interaction inconsistencies all threw me off.
+          different versions of the language, and DOM interaction inconsistencies all threw me off.
         </p>
         <p>
           I really like Javascript now, thanks to ES6, amazing libraries, and my growth as programmer.
