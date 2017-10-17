@@ -1,14 +1,12 @@
 const store = {
   summary: {
     tagline: "Hello. I enjoy making a difference in the world through code. I'm half Swedish and half American. I've lived in 9 countries.",
-    dependencies: {
-      intro: "You can count on me to:",
-      items: [
-        "Develop high quality software on time",
-        "Work well in a team ",
-        "Learn and adapt quickly"
-      ]
-    }
+    intro: "You can count on me to:",
+    items: [
+      "Develop high quality software on time",
+      "Work well in a team ",
+      "Learn and adapt quickly"
+    ]
   },
   skills: {
     programming: {

@@ -6,9 +6,9 @@ class Summary extends Component {
       <div>
         <h2>summary</h2>
         <p>{summary.tagline}</p>
-        <p>{summary.dependencies.intro}</p>
+        <p>{summary.intro}</p>
         <ul>
-          {summary.dependencies.items.map((item) => {
+          {summary.items.map((item) => {
             return <li>{item}</li>
           })}
         </ul>
