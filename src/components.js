@@ -52,15 +52,7 @@ const Label = styled.div`
 `
 
 const Buttons = styled.div`
-  display: flex;
-  align-items: flex-start;
-  > a, button {
-    margin-right: 0.5rem;
-  }
-  > p {
-    margin-left: 0.5rem;
-    margin-right: 1rem;
-  }
+
 `
 const StyledButton = styled.a`
   border: 3px solid #000;
@@ -77,6 +69,8 @@ const StyledButton = styled.a`
 `
 
 const StyledLink = styled(Link)`
+  display:block;
+  margin-bottom: 0.5rem;
   border: 3px solid #000;
   border-radius: 5px;
   padding: 0.75rem 1rem;

@@ -12,7 +12,10 @@ class Home extends Component {
         <p>
           I develop software out of Atlanta, GA, USA.
         </p>
-        <Buttons style={{marginTop: "3rem"}}>
+        <p>
+          I'm half Swedish half American and I've lived in 9 countries. I enjoy making a difference in the world through code.
+        </p>
+        <Buttons style={{marginTop: "2.25rem"}}>
           <Button to="/portfolio" text="projects"/>
           <Button to="/portfolio" text="contact"/>
           <Button to="/portfolio" text="résumé"/>

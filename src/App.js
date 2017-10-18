@@ -17,8 +17,6 @@ import Portfolio from './portfolio/Portfolio.js';
 import FormsExpress from './portfolio/FormsExpress.js';
 import Accord from './portfolio/Accord.js';
 
-import Resume from './resume/Resume.js';
-
 class App extends Component {
   render() {
     return (
@@ -36,8 +34,6 @@ class App extends Component {
           <Route path="/portfolio" exact component={Portfolio}/>
           <Route path="/portfolio/forms-express" exact component={FormsExpress}/>
           <Route path="/portfolio/accord-aca" exact component={Accord}/>
-
-          <Route path="/resume" exact component={Resume}/>
 
         </Switch>
       </div>
