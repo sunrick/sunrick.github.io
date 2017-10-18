@@ -6,7 +6,6 @@ class StandardPage extends Component {
   render() {
     return(
       <Wrapper {...this.props}>
-        <FixedNavbar/>
         <FluidContainer>
           <TitleContainer>
             <Title> {this.props.title} </Title>
@@ -23,7 +22,7 @@ class StandardPage extends Component {
 const Wrapper = styled.div`
   min-height: 100vh;
   padding-bottom: 10rem;
-  background-color: ${props => props.bgColor || "#fff"};
+  background-color: ${props => props.bgColor || "#FFDC50"};
   color: ${props => props.color || "#000"};
 `
 const Content = styled.div``

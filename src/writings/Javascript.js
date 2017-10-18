@@ -9,14 +9,7 @@ class Javascript extends Component {
         <p> 2+ years, professional </p>
         <h2> about </h2>
         <p>
-          I started programming in Javascript professionally over 2 years ago.
-        </p>
-        <p>
-          Javascript was challenging to learn at first. Things like variable scope, variable hoisting, event based programming,
-          different versions of the language, and DOM interaction inconsistencies all threw me off.
-        </p>
-        <p>
-          I really like Javascript now, thanks to ES6, amazing libraries, and my growth as programmer.
+          I've been programming in Javascript professionally since 2015.
         </p>
         <h2> how i use it </h2>
         <p>

@@ -12,7 +12,7 @@ import StandardWritingPage from './components/StandardWritingPage.js'
 const FluidContainer = (props) => (
   <Box
     {...props}
-    px={[2,4]}
+    px={[3,4]}
   />
 )
 
@@ -81,6 +81,7 @@ const StyledLink = styled(Link)`
   border-radius: 5px;
   padding: 0.75rem 1rem;
   background-color: transparent;
+  font-family: FontBlack;
   color: #000;
   text-decoration: none;
   &:hover {
@@ -90,18 +91,16 @@ const StyledLink = styled(Link)`
   }
 `
 const Nav = styled.div`
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  height: 5rem;
   display: flex;
 `
 
-const FixedNav = Nav.extend`
+const FixedNav = styled(FluidContainer)`
   position: fixed;
+  bottom: 0;
+  left: 0;
   right: 0;
-  top: 0
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `
 
 const NavLeft = styled.div``

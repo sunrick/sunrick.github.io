@@ -76,8 +76,8 @@ class PortfolioItem extends Component {
         innerRef={el => { this.root = el }}
       >
         <Content>
-          <h1> {this.props.title} </h1>
-          <h3> {this.props.subtitle} </h3>
+          <h1 style={{marginBottom: 0}}> {this.props.title} </h1>
+          <h3 style={{marginTop: 0}}> {this.props.subtitle} </h3>
           <p> {this.props.labels} </p>
           <SVGBox innerRef={el => { this.svgEl = el }}/>
         </Content>
