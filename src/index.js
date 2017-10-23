@@ -48,6 +48,10 @@ injectGlobal`
   .subtitle {
     margin-top: -0.25rem;
   }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 `
 
 ReactDOM.render(<Router><App/></Router>, document.getElementById('root'));

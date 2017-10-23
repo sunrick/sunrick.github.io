@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Logo from './Logo.js'
 import { FixedNavbar, FluidContainer } from '../components.js'
 
 class StandardPage extends Component {
@@ -7,9 +8,6 @@ class StandardPage extends Component {
     return(
       <Wrapper {...this.props}>
         <FluidContainer>
-          <TitleContainer>
-            <Title> {this.props.title} </Title>
-          </TitleContainer>
           <Content>
             {this.props.children}
           </Content>

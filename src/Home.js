@@ -12,14 +12,17 @@ class Home extends Component {
         <p>
           I develop software out of Atlanta, GA, USA.
         </p>
-        <p>
-          I'm half Swedish half American and I've lived in 9 countries. I enjoy making a difference in the world through code.
-        </p>
-        <Buttons style={{marginTop: "2.25rem"}}>
-          <Button to="/portfolio" text="projects"/>
-          <Button to="/portfolio" text="contact"/>
-          <Button to="/portfolio" text="résumé"/>
+        <Buttons style={{marginTop: "2.5rem", marginBottom: "2.75rem"}}>
+          <Button to="/about-me" text="about me"/>
+          <Button to="/projects" text="projects"/>
+          <Button to="/resume" text="pdf résumé"/>
         </Buttons>
+        <p> Want to get in touch? </p>
+        <ul>
+          <li> <a href="mailto:rickard@sunden.io">rickard@sunden.io</a> </li>
+          <li> <a href="github.com/sunrick">github.com/sunrick</a> </li>
+          <li> <a href="linkedin.com/in/rsunden">linkedin.com/in/rsunden</a> </li>
+        </ul>
       </StandardWritingPage>
     )
   }
