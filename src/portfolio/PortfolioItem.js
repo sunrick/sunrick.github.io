@@ -76,9 +76,17 @@ class PortfolioItem extends Component {
         innerRef={el => { this.root = el }}
       >
         <Content>
-          <h1 style={{marginBottom: 0}}> {this.props.title} </h1>
-          <h3 style={{marginTop: 0}}> {this.props.subtitle} </h3>
-          <p> {this.props.labels} </p>
+          <Left>
+            <h1 style={{marginBottom: 0, marginTop: "1rem"}}> {this.props.title} </h1>
+            <h3 style={{marginTop: 0}}> {this.props.subtitle} </h3>
+            <p> {this.props.labels} </p>
+          </Left>
+          <Right>
+            <p style={{marginTop: "2rem", fontSize: "0.8em"}}>
+              {this.props.description}
+            </p>
+            <p>{this.props.status}</p>
+          </Right>
           <SVGBox innerRef={el => { this.svgEl = el }}/>
         </Content>
       </Wrapper>
@@ -93,6 +101,7 @@ const Wrapper = styled.a`
   background-color: transparent;
   border-radius: 5px;
   border: 3px solid black;
+  margin-bottom: 1rem;
 `
 
 const Content = styled.div`
@@ -100,6 +109,15 @@ const Content = styled.div`
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+`
+
+const Left = styled.div`
+  flex: 1;
+`
+
+const Right = styled.div`
+  flex: 1;
 `
 
 const SVGBox = styled.svg`

@@ -22,7 +22,7 @@ const Columns = (props) => (
 const Column = (props) => (
   <Box
     {...props}
-    px={1}
+    px={[1,1,3]}
   />
 )
 
