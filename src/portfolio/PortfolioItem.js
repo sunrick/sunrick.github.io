@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import SVG from 'svg.js'
 import styled from 'styled-components'
-
+import { media } from '../components.js'
 
 class PortfolioItem extends Component {
   constructor(props){
@@ -101,7 +101,15 @@ const Wrapper = styled.a`
   background-color: transparent;
   border-radius: 5px;
   border: 3px solid black;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  width: 50%;
+  ${media.tablet`
+    border-radius: 0px;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+  `}
+
 `
 
 const Content = styled.div`
@@ -110,10 +118,11 @@ const Content = styled.div`
   padding-right: 1rem;
   padding-bottom: 1rem;
   display: flex;
+  flex-wrap: wrap;
 `
 
 const Left = styled.div`
-  flex: 1;
+  width: 100%;
 `
 
 const Right = styled.div`

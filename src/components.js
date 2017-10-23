@@ -1,14 +1,40 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 import { Link } from 'react-router-dom'
 import Logo from './components/Logo.js'
 
+const sizes = {
+  giant: 1170,
+  desktop: 960,
+  tablet: 768,
+  phone: 376
+}
+
+// iterate through the sizes and create a media template
+const media = Object.keys(sizes).reduce((accumulator, label) => {
+  // use em in breakpoints to work properly cross-browser and support users
+  // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
+  const emSize = sizes[label] / 16
+  accumulator[label] = (...args) => css`
+    @media (max-width: ${emSize}em) {
+      ${css(...args)}
+    }
+  `
+  return accumulator
+}, {})
 
 const FluidContainer = (props) => (
   <Box
     {...props}
     px={[3,4]}
+  />
+)
+
+const FluidMobileContainer = (props) => (
+  <Box
+    {...props}
+    px={[0,0,4]}
   />
 )
 
@@ -84,5 +110,6 @@ const RouterButton = styled(Link)`
 export {
   Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
-  Logo, Labels, Label
+  Logo, Labels, Label, media,
+  FluidMobileContainer
 }
