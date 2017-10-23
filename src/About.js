@@ -35,7 +35,7 @@ class About extends Component {
                 Before that I programmed Excel VBA scripts and web scrapers for fun and work.
               </p>
               <p>
-                Today, I develop React JS and Native apps. I build backend APIs in Express.js, Elixir (Phoenix) and Rails.
+                Today, I develop React JS and Native apps. I build backend APIs with Express.js, Elixir (Phoenix) and Rails.
               </p>
             </Column>
           </Columns>
