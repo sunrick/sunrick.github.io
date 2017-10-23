@@ -21,7 +21,7 @@ class About extends Component {
               I want to build software that helps people.
             </p>
             <p>
-              I like to learn something new everyday. It doesn't really matter about what. It could be about programming and technology, languages, or about how a toilet works.
+              I like to learn something new everyday. It doesn't really matter about what it is. It could be about programming and technology, languages, or about how a toilet works.
             </p>
             <h3> my programming history </h3>
             <p>

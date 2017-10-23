@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 import { Link } from 'react-router-dom'
-import Button from './components/Button.js'
 import Logo from './components/Logo.js'
 
 
@@ -49,9 +48,10 @@ const Label = styled.div`
 `
 
 const Buttons = styled.div`
-
 `
-const StyledButton = styled.a`
+const Button = styled.a`
+  display: block;
+  margin-bottom: 0.5rem;
   border: 3px solid #000;
   border-radius: 5px;
   padding: 0.75rem 1rem;
@@ -65,14 +65,13 @@ const StyledButton = styled.a`
   }
 `
 
-const StyledLink = styled(Link)`
+const RouterButton = styled(Link)`
   display:block;
   margin-bottom: 0.5rem;
   border: 3px solid #000;
   border-radius: 5px;
   padding: 0.75rem 1rem;
   background-color: transparent;
-  font-family: FontBlack;
   color: #000;
   text-decoration: none;
   &:hover {
@@ -83,7 +82,7 @@ const StyledLink = styled(Link)`
 `
 
 export {
-  Button, Buttons, StyledButton, StyledLink,
+  Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
   Logo, Labels, Label
 }

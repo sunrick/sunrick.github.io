@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Buttons, Button } from './components.js'
+import { Buttons, Button, RouterButton } from './components.js'
 import { FluidContainer, Column } from  './components.js'
+import resume from './img/rickard_sunden_resume.pdf'
 
 class Home extends Component {
   render() {
@@ -16,9 +17,9 @@ class Home extends Component {
               I develop software out of Atlanta, GA, USA.
             </p>
             <Buttons style={{marginTop: "2.5rem", marginBottom: "2.75rem"}}>
-              <Button to="/about-me" text="about me"/>
-              <Button to="/projects" text="projects"/>
-              <Button to="/resume" text="pdf résumé"/>
+              <RouterButton to="/about-me" children="about me"/>
+              <RouterButton to="/projects" children="projects"/>
+              <Button href={resume} target="_blank"children="pdf résumé"/>
             </Buttons>
             <p> Want to get in touch? </p>
             <ul>
