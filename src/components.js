@@ -82,7 +82,7 @@ const Button = styled.a`
   border: 3px solid #272727;
   border-radius: 5px;
   padding: 0.75rem 1rem;
-  background-color: transparent;
+  background-color: #FFDC50;
   color: #272727;
   text-decoration: none;
   &:hover {
@@ -98,7 +98,7 @@ const RouterButton = styled(Link)`
   border: 3px solid #272727;
   border-radius: 5px;
   padding: 0.75rem 1rem;
-  background-color: transparent;
+  background-color: #FFDC50;
   color: #272727;
   text-decoration: none;
   &:hover {

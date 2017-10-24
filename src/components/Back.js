@@ -18,6 +18,7 @@ const Wrapper = styled.div`
   right: 0;
   margin-right: 1rem;
   margin-top: 1rem;
+  z-index: 1;
 `
 
 export default Back
