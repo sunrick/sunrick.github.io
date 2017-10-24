@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { FluidContainer, Columns, Column } from  './components.js'
+import { FluidContainer, Columns, Column, Back } from  './components.js'
 import drawing from './img/rickard-bjorn.png'
 
 class About extends Component {
   render() {
     return (
       <Wrapper>
+        <Back/>
         <FluidContainer style={{marginTop: "2rem"}}>
           <Columns wrap>
             <Column w={[1,1,1/2]}>

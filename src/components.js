@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 import { Link } from 'react-router-dom'
 import Logo from './components/Logo.js'
+import Back from './components/Back.js'
 
 const sizes = {
   giant: 1170,
@@ -111,5 +112,5 @@ export {
   Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
   Logo, Labels, Label, media,
-  FluidMobileContainer
+  FluidMobileContainer, Back
 }

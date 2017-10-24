@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Buttons, Button, RouterButton } from './components.js'
-import { FluidContainer, Column } from  './components.js'
+import { FluidContainer, Column, Buttons, RouterButton, Button } from './components.js'
 import resume from './img/rickard_sunden_resume.pdf'
 
 class Home extends Component {
