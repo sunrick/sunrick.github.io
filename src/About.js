@@ -50,7 +50,7 @@ const Wrapper = styled.div`
   min-height: 100vh;
   padding-bottom: 10rem;
   background-color: ${props => props.bgColor || "#FFDC50"};
-  color: ${props => props.color || "#000"};
+  color: ${props => props.color || "#272727"};
   overflow: auto;
 `
 

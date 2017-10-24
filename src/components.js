@@ -64,11 +64,11 @@ const Labels = styled.div`
 `
 
 const Label = styled.div`
-  border: 2px solid #000;
+  border: 2px solid #272727;
   border-radius: 5px;
   padding: 0.5rem 0.75rem;
   background-color: transparent;
-  color: #000;
+  color: #272727;
   text-decoration: none;
   font-size: 0.8em;
   margin-bottom: 0.5rem;
@@ -79,15 +79,15 @@ const Buttons = styled.div`
 const Button = styled.a`
   display: block;
   margin-bottom: 0.5rem;
-  border: 3px solid #000;
+  border: 3px solid #272727;
   border-radius: 5px;
   padding: 0.75rem 1rem;
   background-color: transparent;
-  color: #000;
+  color: #272727;
   text-decoration: none;
   &:hover {
     cursor: pointer;
-    background-color: #000;
+    background-color: #272727;
     color: #fff;
   }
 `
@@ -95,15 +95,15 @@ const Button = styled.a`
 const RouterButton = styled(Link)`
   display:block;
   margin-bottom: 0.5rem;
-  border: 3px solid #000;
+  border: 3px solid #272727;
   border-radius: 5px;
   padding: 0.75rem 1rem;
   background-color: transparent;
-  color: #000;
+  color: #272727;
   text-decoration: none;
   &:hover {
     cursor: pointer;
-    background-color: #000;
+    background-color: #272727;
     color: #fff;
   }
 `

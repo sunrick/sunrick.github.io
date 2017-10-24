@@ -97,8 +97,7 @@ class PortfolioItem extends Component {
 const Wrapper = styled.a`
   display: block;
   position: relative;
-  color: #000;
-  background-color: transparent;
+  color: #272727;
   border-radius: 5px;
   border: 3px solid black;
   margin-bottom: 1.5rem;

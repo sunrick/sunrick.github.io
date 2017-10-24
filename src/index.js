@@ -33,6 +33,7 @@ injectGlobal`
     position: relative;
     font-size: 20px;
     background-color: #e6ecf0;
+    color: #272727;
   }
   h1,h2,h3,h4,h5,h6 {
     font-family: FontBlack;
@@ -40,6 +41,7 @@ injectGlobal`
 
   a {
     text-decoration: none;
+    color: #272727;
   }
 
   .title {

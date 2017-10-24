@@ -42,13 +42,13 @@ const Wrapper = styled.div`
   overflow: auto;
   p, ul {
     background-color: #FFDC50 !important;
-    border: 3px solid #000;
+    border: 3px solid #272727;
     padding: 1rem;
     border-radius: 5px;
   }
   a {
-    color: #000;
-    background-color: #FFDC50 !important;
+    color: #272727;
+    background-color: #FFDC50;
   }
 `
 
