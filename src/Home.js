@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { FluidContainer, Column, Buttons, RouterButton, Button } from './components.js'
+import { FluidContainer, Column, Buttons, RouterButton, Button, Logo } from './components.js'
 import resume from './img/rickard_sunden_resume.pdf'
 
 class Home extends Component {
   render() {
     return (
       <Wrapper>
+        <Logo/>
         <FluidContainer>
           <Column w={[1, 1, 1/2]}>
             <p style={{marginTop: "3rem"}}>
