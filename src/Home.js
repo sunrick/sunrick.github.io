@@ -7,8 +7,7 @@ class Home extends Component {
   render() {
     return (
       <Wrapper>
-        <Logo/>
-        <FluidContainer>
+        <FluidContainer style={{zIndex: 1, position: "relative"}}>
           <Column w={[1, 1, 1/2]}>
             <p style={{marginTop: "3rem"}}>
               Hello. My name is Rickard Sundén.
@@ -29,6 +28,7 @@ class Home extends Component {
             </ul>
           </Column>
         </FluidContainer>
+        <Logo/>
       </Wrapper>
     )
   }
@@ -40,6 +40,16 @@ const Wrapper = styled.div`
   background-color: ${props => props.bgColor || "#FFDC50"};
   color: ${props => props.color || "#000"};
   overflow: auto;
+  p, ul {
+    background-color: #FFDC50 !important;
+    border: 3px solid #000;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  a {
+    color: #000;
+    background-color: #FFDC50 !important;
+  }
 `
 
 export default Home;
