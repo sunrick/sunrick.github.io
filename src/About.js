@@ -11,7 +11,7 @@ class About extends Component {
         <FluidContainer style={{marginTop: "2rem"}}>
           <Columns wrap>
             <Column w={[1,1,1/2]}>
-              <img style={{width: "100%"}} src={drawing}/>
+              <img style={{width: "100%"}} src={drawing} alt={"my dog Björn and I"}/>
             </Column>
             <Column w={[1, 1, 1/2]}>
               <h3> a little about me </h3>
