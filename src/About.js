@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { FluidContainer, Columns, Column, Back, Box } from  './components.js'
+import { FluidContainer, Columns, Column, Back, Box, Art } from  './components.js'
 import drawing from './img/rickard-bjorn.svg'
 
 class About extends Component {
@@ -37,6 +37,7 @@ class About extends Component {
               </Box>
             </Column>
           </Columns>
+          <Art/>
         </FluidContainer>
       </Wrapper>
     )
@@ -45,7 +46,7 @@ class About extends Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
-  padding-bottom: 10rem;
+  padding-bottom: 3rem;
   background-color: ${props => props.bgColor || "#FFDC50"};
   color: ${props => props.color || "#272727"};
   overflow: auto;

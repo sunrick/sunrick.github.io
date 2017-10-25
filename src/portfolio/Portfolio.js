@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PortfolioItem from './PortfolioItem.js'
-import { FluidContainer, Column, Back, Box } from '../components.js'
+import { FluidContainer, Column, Back, Box, Art } from '../components.js'
 import lights from '../img/lights.svg'
 
 class Portfolio extends Component {
@@ -21,14 +21,17 @@ class Portfolio extends Component {
         <PortfolioItem status="in production" title="forms express 2.0" subtitle="self service aca compliance reporting" labels="ruby on rails" description="Platform for companies to manage their Affordable Care Act compliance reporting themselves. Users can input employee life events and the system calculates the correct code combinations for the reporting year."/>
         <PortfolioItem status="in production" title="accord aca" subtitle="aca compliance reporting" labels="ruby on rails" description="Full service platform for companies to manage their Affordable Care Act compliance reporting. Various data sources are compiled from client systems and analyzed to generate correct code combinations for the reporting year."/>
         <PortfolioItem status="in production" title="levana" subtitle="funding platform for school tuition" labels="ruby on rails" description="A funding platform to send kids to better schools. Premise of the application is to make donating more personal."/>
+        <Art/>
       </Container>
     )
   }
 }
+
 const Container = FluidContainer.extend`
   padding-top: 3rem;
   background-color: #FFDC50;
-  background-image: ${(props) => `url(${lights})`},
+  background-image: ${(props) => `url(${lights})`};
   background-repeat: repeat;
 `
+
 export default Portfolio

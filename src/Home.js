@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FluidContainer, Column, Buttons, RouterButton, Button, Logo, Box, media } from './components.js'
 import resume from './img/rickard_sunden_resume.pdf'
+import { logEvent } from './logger.js'
 
 class Home extends Component {
   render() {
@@ -20,14 +21,14 @@ class Home extends Component {
             <Buttons style={{marginTop: "2.5rem", marginBottom: "2.75rem"}}>
               <RB to="/about-me" children="about me"/>
               <RB to="/projects" children="projects"/>
-              <B href={resume} target="_blank"children="pdf résumé"/>
+              <B onClick={() => logEvent("resume")} href={resume} target="_blank"children="pdf résumé"/>
             </Buttons>
             <Box>
               <p> Want to get in touch? </p>
               <ul>
-                <li> <a href="mailto:rickard@sunden.io">rickard@sunden.io</a> </li>
-                <li> <a href="github.com/sunrick">github.com/sunrick</a> </li>
-                <li> <a href="linkedin.com/in/rsunden">linkedin.com/in/rsunden</a> </li>
+                <li> <a onClick={() => logEvent("email")} href="mailto:rickard@sunden.io">rickard@sunden.io</a> </li>
+                <li> <a onClick={() => logEvent("github")} href="https://github.com/sunrick">github.com/sunrick</a> </li>
+                <li> <a onClick={() => logEvent("linkedin")} href="https://linkedin.com/in/rsunden">linkedin.com/in/rsunden</a> </li>
               </ul>
             </Box>
           </Column>
@@ -40,9 +41,8 @@ class Home extends Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
-  padding-bottom: 10rem;
-  background-color: ${props => props.bgColor || "#FFDC50"};
-  color: ${props => props.color || "#000"};
+  background-color: #FFDC50;
+  color: #000;
   overflow: auto;
   a {
     color: #272727;

@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'sanitize.css';
-
 import FontBlack from './fonts/CircularStdBlack.woff2'
 import FontBold from './fonts/CircularStdBold.woff2'
 import FontBook from './fonts/CircularStdBook.woff2'
-
 import { injectGlobal } from 'styled-components'
+import App from './App.js'
+import registerServiceWorker from './registerServiceWorker'
+import createHistory from 'history/createBrowserHistory'
+import { Router } from 'react-router-dom'
+import { logPage } from './logger.js'
 
-import App from './App.js';
-import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter as Router } from 'react-router-dom'
+const history = createHistory()
+history.listen((location, action) => {
+  logPage(location)
+})
 
+logPage(window.location)
 
 injectGlobal`
   @font-face {
@@ -56,5 +61,5 @@ injectGlobal`
   }
 `
 
-ReactDOM.render(<Router><App/></Router>, document.getElementById('root'));
+ReactDOM.render(<Router history={history} ><App/></Router>, document.getElementById('root'));
 registerServiceWorker();

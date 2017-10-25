@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 import { Link } from 'react-router-dom'
 import Logo from './components/Logo.js'
 import Back from './components/Back.js'
+import Art from './components/Art.js'
 
 const sizes = {
   giant: 1170,
@@ -28,7 +29,8 @@ const FluidContainer = styled.div`
   overflow: auto;
   padding: 0 3rem;
   ${media.tablet`
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   `}
 `
 
@@ -96,5 +98,5 @@ const Box = styled.div`
 export {
   Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
-  Logo, media, Back, Box
+  Logo, media, Back, Box, Art
 }
