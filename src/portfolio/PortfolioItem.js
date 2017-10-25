@@ -101,7 +101,7 @@ const Wrapper = styled.a`
   background-color: #FFDC50;
   border-radius: 5px;
   border: 3px solid black;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   width: 50%;
   ${media.tablet`
     border-radius: 0px;

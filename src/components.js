@@ -1,13 +1,11 @@
-import React from 'react'
 import styled, { css } from 'styled-components'
-import { Flex, Box } from 'grid-styled'
 import { Link } from 'react-router-dom'
 import Logo from './components/Logo.js'
 import Back from './components/Back.js'
 
 const sizes = {
   giant: 1170,
-  desktop: 960,
+  desktop: 1040,
   tablet: 768,
   phone: 480
 }
@@ -25,57 +23,30 @@ const media = Object.keys(sizes).reduce((accumulator, label) => {
   return accumulator
 }, {})
 
-const FluidContainer = (props) => (
-  <Box
-    {...props}
-    px={[3,4]}
-  />
-)
 
-const FluidMobileContainer = (props) => (
-  <Box
-    {...props}
-    px={[0,0,4]}
-  />
-)
+const FluidContainer = styled.div`
+  overflow: auto;
+  padding: 0 3rem;
+  ${media.tablet`
+    padding: 0;
+  `}
+`
 
-const Columns = (props) => (
-  <Flex
-    {...props}
-    mx={-1}
-  />
-)
-
-const Column = (props) => (
-  <Box
-    {...props}
-    px={[0,0,3]}
-  />
-)
-
-const Labels = styled.div`
+const Columns = styled.div`
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: -0.5rem;
-  > * {
-    margin-right: 0.5rem;
-  }
+`
+const Column = styled.div`
+  width: 50%;
+  padding: ${() => `props.padding || 0 3rem`};
+  ${media.tablet`
+    width: 100%;
+    padding: 0;
+  `}
 `
 
-const Label = styled.div`
-  border: 2px solid #272727;
-  border-radius: 5px;
-  padding: 0.5rem 0.75rem;
-  background-color: transparent;
-  color: #272727;
-  text-decoration: none;
-  font-size: 0.8em;
-  margin-bottom: 0.5rem;
-`
+const Buttons = styled.div``
 
-const Buttons = styled.div`
-`
 const Button = styled.a`
   display: block;
   margin-bottom: 0.5rem;
@@ -110,7 +81,7 @@ const RouterButton = styled(Link)`
   }
 `
 
-const BBox = styled.div`
+const Box = styled.div`
   background-color: #FFDC50 !important;
   border: 3px solid #272727;
   padding: 0rem 1rem;
@@ -125,7 +96,5 @@ const BBox = styled.div`
 export {
   Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
-  Logo, Labels, Label, media,
-  FluidMobileContainer, Back,
-  BBox
+  Logo, media, Back, Box
 }
