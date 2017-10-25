@@ -89,6 +89,7 @@ const Button = styled.a`
     cursor: pointer;
     background-color: #272727;
     color: #fff;
+    text-decoration: none !important;
   }
 `
 
@@ -105,6 +106,7 @@ const RouterButton = styled(Link)`
     cursor: pointer;
     background-color: #272727;
     color: #fff;
+    text-decoration: none !important;
   }
 `
 

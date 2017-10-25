@@ -26,12 +26,13 @@ class Home extends Component {
               <p> Want to get in touch? </p>
               <ul>
                 <li> <a href="mailto:rickard@sunden.io">rickard@sunden.io</a> </li>
-                <li> <a href="https://github.com/sunrick">github.com/sunrick</a> </li>
-                <li> <a href="https://linkedin.com/in/rsunden">linkedin.com/in/rsunden</a> </li>
+                <li> <a href="github.com/sunrick">github.com/sunrick</a> </li>
+                <li> <a href="linkedin.com/in/rsunden">linkedin.com/in/rsunden</a> </li>
               </ul>
             </BBox>
           </Column>
         </FluidContainer>
+        <Logo/>
       </Wrapper>
     )
   }
@@ -46,6 +47,9 @@ const Wrapper = styled.div`
   a {
     color: #272727;
     background-color: #FFDC50;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `
 
