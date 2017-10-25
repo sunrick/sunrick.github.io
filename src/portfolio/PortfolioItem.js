@@ -98,9 +98,10 @@ const Wrapper = styled.a`
   display: block;
   position: relative;
   color: #272727;
+  background-color: #FFDC50;
   border-radius: 5px;
   border: 3px solid black;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
   width: 50%;
   ${media.tablet`
     border-radius: 0px;

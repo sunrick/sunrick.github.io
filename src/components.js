@@ -108,9 +108,17 @@ const RouterButton = styled(Link)`
   }
 `
 
+const BBox = styled.div`
+  background-color: #FFDC50 !important;
+  border: 3px solid #272727;
+  padding: 0rem 1rem;
+  border-radius: 5px;
+`
+
 export {
   Buttons, Button, RouterButton,
   Columns, Column, FluidContainer,
   Logo, Labels, Label, media,
-  FluidMobileContainer, Back
+  FluidMobileContainer, Back,
+  BBox
 }

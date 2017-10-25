@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FluidContainer, Columns, Column, Back } from  './components.js'
-import drawing from './img/rickard-bjorn.png'
+import drawing from './img/rickard-bjorn.svg'
 
 class About extends Component {
   render() {
@@ -20,13 +20,6 @@ class About extends Component {
               </p>
               <p>
                 On any given day, you can catch me walking my dog Björn, saying something really stupid to my friends, kicking a soccer ball or playing video games.
-              </p>
-              <h3> why I get up in the morning </h3>
-              <p>
-                I want to build software that helps people.
-              </p>
-              <p>
-                I like to learn something new everyday. It doesn't really matter about what it is. It could be about programming and technology, languages, or about how a toilet works.
               </p>
               <h3> my programming history </h3>
               <p>
