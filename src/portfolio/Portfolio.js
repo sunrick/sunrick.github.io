@@ -10,11 +10,8 @@ class Portfolio extends Component {
         <Back/>
         <Box>
           <p> Every idea starts with a little light. Then you work really hard to keep that little light going. </p>
-
           <p> Come on little guy! Shine bright! </p>
-
           <p> These are some of the ideas I've worked on that I think shine the brightest. </p>
-          <p> </p>
         </Box>
         <PortfolioItem style={{paddingTop: "3rem"}} status="in development" title="sports fantasy game" subtitle="be the best sports investor" labels="express.js + react native" description="A fun betting platform where you bet on match results. Compete against everyone or with friends in a league. User with most money at the end of the season wins."/>
         <PortfolioItem status="in development" title="consulting platform" subtitle="hire experts for short term projects" labels="express.js + react.js" description="A platform that connects companies with experts. Rate negotiation, scheduling, contracts and payment all handled through platform."/>

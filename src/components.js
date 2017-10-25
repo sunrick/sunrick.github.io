@@ -9,7 +9,7 @@ const sizes = {
   giant: 1170,
   desktop: 960,
   tablet: 768,
-  phone: 376
+  phone: 480
 }
 
 // iterate through the sizes and create a media template
@@ -49,7 +49,7 @@ const Columns = (props) => (
 const Column = (props) => (
   <Box
     {...props}
-    px={[1,1,3]}
+    px={[0,0,3]}
   />
 )
 
@@ -115,6 +115,11 @@ const BBox = styled.div`
   border: 3px solid #272727;
   padding: 0rem 1rem;
   border-radius: 5px;
+  ${media.tablet`
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  `}
 `
 
 export {
