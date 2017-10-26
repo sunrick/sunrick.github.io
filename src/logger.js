@@ -1,6 +1,6 @@
 import ReactGA from 'react-ga'
 
-ReactGA.initialize('UA-108721903-1')
+ReactGA.initialize('UA-108721903-1', { debug: true })
 
 function logPage(location) {
   console.log('called')
