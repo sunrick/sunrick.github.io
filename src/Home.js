@@ -21,7 +21,7 @@ class Home extends Component {
             <Buttons style={{marginTop: "2.5rem", marginBottom: "2.75rem"}}>
               <RB to="/about-me" children="about me"/>
               <RB to="/projects" children="projects"/>
-              <B onClick={() => logEvent("resume")} href={resume} target="_blank"children="pdf résumé"/>
+              <B onClick={() => logEvent("resume")} href={resume} target="_blank"children="pdf résumé" download="rickard_sunden_resume.pdf"/>
             </Buttons>
             <Box>
               <p> Want to get in touch? </p>
