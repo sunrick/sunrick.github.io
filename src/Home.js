@@ -44,6 +44,7 @@ const Wrapper = styled.div`
   background-color: #FFDC50;
   color: #000;
   overflow: auto;
+  padding-bottom: 3rem;
   a {
     color: #272727;
     background-color: #FFDC50;
