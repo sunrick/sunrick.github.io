@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'sanitize.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import 'sanitize.css'
 import FontBlack from './fonts/CircularStdBlack.woff2'
 import FontBold from './fonts/CircularStdBold.woff2'
 import FontBook from './fonts/CircularStdBook.woff2'
 import { injectGlobal } from 'styled-components'
 import App from './App.js'
 import createHistory from 'history/createBrowserHistory'
-import { Router } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { logPage } from './logger.js'
 
 const history = createHistory()
@@ -60,4 +60,4 @@ injectGlobal`
   }
 `
 
-ReactDOM.render(<Router history={history} ><App/></Router>, document.getElementById('root'));
+ReactDOM.render(<HashRouter history={history} ><App/></HashRouter>, document.getElementById('root'));
