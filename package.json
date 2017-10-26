@@ -1,6 +1,6 @@
 {
   "name": "sunrick.github.io",
-  "hompage": "http://sunden.io",
+  "homepage": "http://sunden.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
