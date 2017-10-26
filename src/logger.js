@@ -3,13 +3,11 @@ import ReactGA from 'react-ga'
 ReactGA.initialize('UA-108721903-1', { debug: true })
 
 function logPage(location) {
-  console.log('called')
-  ReactGA.set({ page: location.pathname })
-  ReactGA.pageview(location.pathname)
+  ReactGA.set({ page: location.hash.replace('#', '') })
+  ReactGA.pageview(location.hash.replace('#', ''))
 }
 
 function logEvent(action) {
-  console.log('called')
   ReactGA.event({
     category: "Click",
     action: action
