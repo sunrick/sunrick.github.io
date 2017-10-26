@@ -94,7 +94,7 @@ class PortfolioItem extends Component {
   }
 }
 
-const Wrapper = styled.a`
+const Wrapper = styled.div`
   display: block;
   position: relative;
   color: #272727;
