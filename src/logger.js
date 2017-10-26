@@ -3,6 +3,7 @@ import ReactGA from 'react-ga'
 ReactGA.initialize('UA-108721903-1')
 
 function logPage(location) {
+  console.log('called')
   ReactGA.set({ page: location.pathname })
   ReactGA.pageview(location.pathname)
 }
