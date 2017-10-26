@@ -6,7 +6,6 @@ import FontBold from './fonts/CircularStdBold.woff2'
 import FontBook from './fonts/CircularStdBook.woff2'
 import { injectGlobal } from 'styled-components'
 import App from './App.js'
-import registerServiceWorker from './registerServiceWorker'
 import createHistory from 'history/createBrowserHistory'
 import { Router } from 'react-router-dom'
 import { logPage } from './logger.js'
@@ -62,4 +61,3 @@ injectGlobal`
 `
 
 ReactDOM.render(<Router history={history} ><App/></Router>, document.getElementById('root'));
-registerServiceWorker();
