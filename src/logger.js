@@ -9,6 +9,7 @@ function logPage(location) {
 }
 
 function logEvent(action) {
+  console.log('called')
   ReactGA.event({
     category: "Click",
     action: action
