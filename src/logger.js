@@ -12,7 +12,6 @@ function logEvent(action) {
     category: "Click",
     action: action
   })
-  alert('hi')
 }
 
 export { logPage, logEvent }
