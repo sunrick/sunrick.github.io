@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { FluidContainer, Column, Buttons, RouterButton, Button, Logo, Box, media } from './components.js'
-import resume from './img/rickard_sunden_resume.pdf'
 import { logEvent } from './logger.js'
 
 class Home extends Component {
