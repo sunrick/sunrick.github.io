@@ -1,11 +1,7 @@
-import React, { useRef, useEffect } from 'react'
-import { Link } from 'gatsby'
+import React, { useRef } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
 import styled from '@emotion/styled'
-import { ReactComponent as Rocket } from '../images/rocket.svg'
 
 const Body = styled.div`
   height: 100vh;
